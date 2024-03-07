@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Biz RCS Generator Sample">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="biz_rcs_tool">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>biz_rcs_tool</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    const serviceWorkerVersion = "1949543712";
+  </script>
+  <script type="text/javascript" src="scripts.js"></script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+</head>
+<body>
+  <div class="row">
+    <div id="web" class="area">
+      <h1>RCS Biz Web</h1>
+      <div id="logos">
+        <label class="custom-file-upload" for="file-input">
+          <span id="file-names">로고 불러오기</span>
+          <input type="file" id="file-input" style="display: none;" onChange="readMultiFiles(event)" multiple/>
+        </label>
+        <label class="custom-remove" onclick="removeFiles()">
+          <span>제거</span>
+        </label>
+      </div>
+      <div>
+        <input value="기본 파일 적용" type="button" class="control_input" style="height: 30px;" onclick="readFileToJson()">
+      </div>
+      <div>
+        <textarea id="input_json" placeholder="insert json"></textarea>
+        <input value="PASS TO WebAPP" type="button" class="control_input"
+               onclick="setupData(document.getElementById('input_json').value)">
+      </div>
+      <div id="result_area">
+        <h1>RESULT</h1>
+        <textarea id="result"></textarea>
+      </div>
+    </div>
+    <div id="web_app" class="area">
+      <h1>Web App</h1>
+      <div class="app" id="flutter_app"></div>
+    </div>
+  </div>
+</body>
+</html>
