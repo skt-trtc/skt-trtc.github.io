@@ -1,0 +1,158 @@
+{
+  "groupId": null,
+  "messagebaseId": "CCwMhM0200",
+  "tmpltName": "슬라이드형(Medium,2장)",
+  "messagebaseformId": "CCwMhM0200",
+  "brandId": "common",
+  "status": "ready",
+  "approvalResult": "승인",
+  "approvalReason": null,
+  "registerDate": "2021-09-30T15:03:11.000+09",
+  "approvalDate": "2021-09-30T15:05:41.000+09",
+  "updateDate": "2021-09-30T15:05:41.000+09",
+  "registerId": null,
+  "updateId": "smooncho",
+  "productCode": "chat",
+  "spec": "richcard",
+  "cardType": "carousel medium",
+  "agencyId": null,
+  "inputText": null,
+  "attribute": null,
+  "policyInfo": {
+    "cardCount": 2,
+    "maxTitleSize": 30,
+    "maxButtonCount": 4,
+    "maxDescriptionSize": 1300,
+    "maxMediaSize": 1048576,
+    "buttonsAllowed": true,
+    "adHeaderAllowed": true,
+    "adBodyAllowed": true
+  },
+  "guideInfo": {
+    "maxLineCount": 4,
+    "maxDisplayText": 13,
+    "maxDescriptionSize": 60,
+    "imageWidth": "696",
+    "imageHeight": "504",
+    "detailInfo": null
+  },
+  "params": [
+    {
+      "param": "title1",
+      "isMandatory": false,
+      "type": "string",
+      "contentType": "title",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "inputText": null
+    },
+    {
+      "param": "title2",
+      "isMandatory": false,
+      "type": "string",
+      "contentType": "title",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "inputText": null
+    },
+    {
+      "param": "media1",
+      "isMandatory": false,
+      "type": "file",
+      "contentType": "maapfile",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "inputText": null
+    },
+    {
+      "param": "media2",
+      "isMandatory": false,
+      "type": "file",
+      "contentType": "maapfile",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "inputText": null
+    },
+    {
+      "param": "description1",
+      "isMandatory": false,
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "inputText": null
+    },
+    {
+      "param": "description2",
+      "isMandatory": false,
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "inputText": null
+    }
+  ],
+  "formattedString": {
+    "RCSMessage": {
+      "trafficType": "advertisement",
+      "richcardMessage": {
+        "message": {
+          "generalPurposeCardCarousel": {
+            "layout": {
+              "cardWidth": "MEDIUM_WIDTH"
+            },
+            "content": [
+              {
+                "description": "{{description1}}",
+                "media": {
+                  "mediaUrl": "{{media1}}",
+                  "height": "MEDIUM_HEIGHT"
+                },
+                "title": "{{title1}}"
+              },
+              {
+                "description": "{{description2}}",
+                "media": {
+                  "mediaUrl": "{{media2}}",
+                  "height": "MEDIUM_HEIGHT"
+                },
+                "title": "{{title2}}"
+              }
+            ],
+            "zoomAllowed": false
+          }
+        }
+      }
+    }
+  }
+}

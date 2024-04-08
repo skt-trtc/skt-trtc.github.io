@@ -1,0 +1,88 @@
+{
+    "messagebaseId": "SMwThT00",
+    "isPublic": true,
+    "chatbots": [],
+    "agencyId": null,
+    "productCode": "mms",
+    "spec": "richcard",
+    "cardType": "standalone media top",
+    "status": "ready",
+    "desc": "세로형(Tall)",
+    "bizCondition": "all",
+    "bizCategory": null,
+    "bizService": null,
+    "params": [
+        {
+            "param": "description",
+            "type": "string",
+            "contentType": "description",
+            "strSize": -1,
+            "fileSize": null,
+            "verification": [],
+            "isMandatory": false,
+            "imageWidth": null,
+            "imageHeight": null,
+            "couplingId": null,
+            "relationId": null
+        },
+        {
+            "param": "media",
+            "type": "file",
+            "contentType": "maapfile",
+            "strSize": 30,
+            "fileSize": null,
+            "verification": [],
+            "isMandatory": true,
+            "imageWidth": null,
+            "imageHeight": null,
+            "couplingId": null,
+            "relationId": null
+        },
+        {
+            "param": "title",
+            "type": "string",
+            "contentType": "title",
+            "strSize": -1,
+            "fileSize": null,
+            "verification": [],
+            "isMandatory": false,
+            "imageWidth": null,
+            "imageHeight": null,
+            "couplingId": null,
+            "relationId": null
+        }
+    ],
+    "policyInfo": {
+        "cardCount": 1,
+        "maxTitleSize": 30,
+        "maxDescriptionSize": 1300,
+        "maxMediaSize": 1048576,
+        "maxButtonCount": 2,
+        "buttonsAllowed": true,
+        "adHeaderAllowed": true,
+        "adBodyAllowed": true
+    },
+    "formattedString": {
+        "RCSMessage": {
+            "trafficType": "advertisement",
+            "richcardMessage": {
+                "message": {
+                    "generalPurposeCard": {
+                        "layout": {
+                            "cardOrientation": "VERTICAL"
+                        },
+                        "content": {
+                            "media": {
+                                "height": "TALL_HEIGHT",
+                                "mediaUrl": "{{media}}"
+                            },
+                            "title": "{{title}}",
+                            "description": "{{description}}"
+                        },
+                        "zoomAllowed": true
+                    }
+                }
+            }
+        }
+    }
+}
