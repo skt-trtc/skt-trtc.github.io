@@ -32,8 +32,8 @@ const RESOURCES = {"assets/AssetManifest.bin": "98110a0750632dc330e9747fb7d9f545
 "canvaskit/skwasm.worker.js": "51253d3321b11ddb8d73fa8aa87d3b15",
 "favicon.png": "86fac5a7e6ecb4d87ab529bf6d7af41a",
 "flutter.js": "6b515e434cea20006b3ef1726d2c8894",
-"index.html": "94d9030370e22d65974a850b0baf7fad",
-"/": "94d9030370e22d65974a850b0baf7fad",
+"index.html": "9d85820f7126fecaca987b15ac4ce6ba",
+"/": "9d85820f7126fecaca987b15ac4ce6ba",
 "main.dart.js": "8b10da618db0f86585846c65170ba6f6",
 "manifest.json": "745a7129751ddb1899295062d5871c41",
 "messagebase_json/messagebase1.json": "b18b3a86c1ba427c585d9090512fc08c",
@@ -42,10 +42,10 @@ const RESOURCES = {"assets/AssetManifest.bin": "98110a0750632dc330e9747fb7d9f545
 "messagebase_json/messagebase4.json": "51d15b39e026ad03072022ced17222aa",
 "messagebase_json/messagebase5.json": "45aa18edbddec5434161053593194df7",
 "messagebase_json/messagebase6.json": "978755bc36dbc1cef09e7d81b83cec38",
-"message_base.html": "a4cefaaf7d4550a6d87f9c8a271d93d4",
+"message_base.html": "355ed12a7ff970b79de18b8e288d0fe1",
 "scripts.js": "ff8349662029750c8cf54e01cc0e4eb8",
 "style.css": "c7fe0e659f24f8c4627ce58eda7742d4",
-"template.html": "d783203c5b2d7929dcaad2bc31d2b564",
+"template.html": "355ed12a7ff970b79de18b8e288d0fe1",
 "version.json": "a4475b39bf89b1d5a8e31f182004e3b8"};
 // The application shell files that are downloaded before a service worker can
 // start.
