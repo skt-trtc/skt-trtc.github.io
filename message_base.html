@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/message_base.html">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Biz RCS Generator Sample">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="biz_rcs_tool">
+
+  <!-- Croppie -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.min.css" />
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/exif-js/2.3.0/exif.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.min.js"></script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>biz_rcs_tool</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    const serviceWorkerVersion = null;
+  </script>
+  <script type="text/javascript" src="scripts.js"></script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+</head>
+<body>
+  <div class="row">
+    <div id="web" class="area">
+      <div id="logos">
+        <label class="custom-file-upload" for="file-input">
+          <span id="file-names">로고 불러오기</span>
+          <input type="file" id="file-input" style="display: none;" onChange="readMultiFiles(event, 1)" multiple/>
+        </label>
+        <label class="custom-remove" id="file-remove" onclick="removeFiles(1)">
+          <span>제거</span>
+        </label>
+      </div>
+      <div id="brand-logos">
+        <label class="custom-file-upload" for="brand-file-input">
+          <span id="brand-file-names">브랜드 로고 불러오기</span>
+          <input type="file" id="brand-file-input" style="display: none;" onChange="readMultiFiles(event, 2)" multiple/>
+        </label>
+        <label class="custom-remove"  id="brand-file-remove" onclick="removeFiles(2)">
+          <span>제거</span>
+        </label>
+      </div>
+      <div id="color_select_div">
+        <input type="text" class="color_select" id="enter-color" placeholder="브랜드 컬러 (예: #2F77FB)" onkeydown="" style="z-index:0;">
+        <input type="color" class="color_select" id="color-picker" value="#2F77FB" />
+      </div>
+      <div id="button_container"></div>
+      <div>
+        <input type="checkbox" id="preview_only" />
+        <label for="preview_only">미리보기 전용</label>
+      </div>
+      <div>
+        <textarea id="input_json" placeholder="insert json" class="input_json_class"></textarea>
+        <textarea id="pre_inputted" placeholder="insert pre-inputted" class="input_json_class"></textarea>
+        <input value="PASS TO WebAPP" type="button" class="control_input"
+               onclick="setupData()">
+      </div>
+      <div id="result_area">
+        <h3>결과</h3>
+        <textarea id="result"></textarea>
+      </div>
+    </div>
+    <div id="web_app" class="area">
+      <div class="app" id="flutter_app"></div>
+    </div>
+  </div>
+</body>
+</html>

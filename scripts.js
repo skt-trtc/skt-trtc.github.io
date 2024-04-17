@@ -106,6 +106,7 @@ window.addEventListener('load', function(ev) {
     onEntrypointLoaded: function(engineInitializer) {
       engineInitializer.initializeEngine({
         hostElement: appArea,
+        renderer: "html",
       }).then(function(appRunner) {
         appRunner.runApp();
       });
@@ -114,7 +115,9 @@ window.addEventListener('load', function(ev) {
 });
 
 
-function setupData(json) {
+function setupData() {
+  let json = document.getElementById('input_json').value;
+  let preInputted = document.getElementById('pre_inputted').value;
   let color = document.getElementById('enter-color').value;
   let previewOnly = document.getElementById('preview_only').checked;
 
@@ -123,10 +126,11 @@ function setupData(json) {
       "logos" : fileData,
       "brandLogos" : brand_fileData,
       "message": json,
+      "preInputted" : preInputted,
       "colors": {
         "main": color
       },
-      "previewOnly": previewOnly,
+      "previewOnly": previewOnly
     }
 
     // TODO: MUST call function (for passing data to app)
@@ -159,6 +163,7 @@ window.onRequestUpload = async (json) => {
 // TODO: MUST implement function (listen)
 window.onCloseApp = (rewrite) => {
   document.getElementById('input_json').value = '';
+  document.getElementById('pre_inputted').value = '';
   document.getElementById("result_area").style.visibility = "hidden";
   document.getElementById("result").value = '';
 }
