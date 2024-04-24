@@ -1,0 +1,772 @@
+{
+  "messagebaseformId": "OL00000003",
+  "formName": "문단형",
+  "productCode": "lms",
+  "spec": "openrichcard",
+  "cardType": "format",
+  "bizCondition": "all",
+  "bizCategory": null,
+  "bizService": null,
+  "policyInfo": {
+    "buttonsAllowed": true,
+    "adHeaderAllowed": true,
+    "adBodyAllowed": true,
+    "cardCount": 1,
+    "maxTitleSize": 17,
+    "maxButtonCount": 6,
+    "maxDescriptionSize": 1300,
+    "maxMediaSize": 0
+  },
+  "guideInfo": {
+    "maxLineCount": 0,
+    "maxDisplayText": 17,
+    "maxDescriptionSize": 1300,
+    "imageWidth": 0,
+    "imageHeight": 0
+  },
+  "params": [
+    {
+      "param": "btnName1",
+      "type": "button",
+      "contentType": "buttonName",
+      "strSize": 7,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "btnVsblty1"
+    },
+    {
+      "param": "btnName2",
+      "type": "button",
+      "contentType": "buttonName",
+      "strSize": 7,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "btnVsblty2"
+    },
+    {
+      "param": "btnName3",
+      "type": "button",
+      "contentType": "buttonName",
+      "strSize": 7,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "btnVsblty3"
+    },
+    {
+      "param": "btnName4",
+      "type": "button",
+      "contentType": "buttonName",
+      "strSize": 7,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "btnVsblty4"
+    },
+    {
+      "param": "btnName5",
+      "type": "button",
+      "contentType": "buttonName",
+      "strSize": 7,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "btnVsblty5"
+    },
+    {
+      "param": "btnName6",
+      "type": "button",
+      "contentType": "buttonName",
+      "strSize": 7,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "btnVsblty6"
+    },
+    {
+      "param": "btnVsblty1",
+      "type": "button",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "btnVsblty2",
+      "type": "button",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "btnVsblty3",
+      "type": "button",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "btnVsblty4",
+      "type": "button",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "btnVsblty5",
+      "type": "button",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "btnVsblty6",
+      "type": "button",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "descTitleVsblty1",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "descTitleVsblty2",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "descTitleVsblty3",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "descVsblty1",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "descVsblty2",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "descVsblty3",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "description1",
+      "type": "string",
+      "contentType": "description",
+      "strSize": 1300,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "descVsblty1"
+    },
+    {
+      "param": "description2",
+      "type": "string",
+      "contentType": "description",
+      "strSize": 1300,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "descVsblty2"
+    },
+    {
+      "param": "description3",
+      "type": "string",
+      "contentType": "description",
+      "strSize": 1300,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "descVsblty3"
+    },
+    {
+      "param": "mTitle",
+      "type": "string",
+      "contentType": "title",
+      "strSize": 17,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "mTitleVsblty"
+    },
+    {
+      "param": "mTitleMedia",
+      "type": "file",
+      "contentType": "maapfile",
+      "strSize": -1,
+      "fileSize": 1048576,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": 300,
+      "imageHeight": 300,
+      "couplingId": null,
+      "relationId": "mTitleMediaVsblty"
+    },
+    {
+      "param": "mTitleMediaVsblty",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "mTitleVsblty",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "title1",
+      "type": "string",
+      "contentType": "description",
+      "strSize": 30,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "descTitleVsblty1"
+    },
+    {
+      "param": "title2",
+      "type": "string",
+      "contentType": "description",
+      "strSize": 30,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "descTitleVsblty2"
+    },
+    {
+      "param": "title3",
+      "type": "string",
+      "contentType": "description",
+      "strSize": 30,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "descTitleVsblty3"
+    }
+  ],
+  "formattedString": {
+    "RCSMessage": {
+      "trafficType": "advertisement",
+      "openrichcardMessage": {
+        "card": "open_rich_card",
+        "version": "1.0.0",
+        "zoomAllowed": true,
+        "scaleAllowed": true,
+        "layout": {
+          "widget": "LinearLayout",
+          "width": "match",
+          "height": "content",
+          "orientation": "vertical",
+          "background": "#F2F2F2",
+          "children": [
+            {
+              "widget": "LinearLayout",
+              "width": "match",
+              "height": "content",
+              "marginTop": "10dp",
+              "paddingLeft": "10dp",
+              "paddingRight": "10dp",
+              "orientation": "vertical",
+              "visibility": "{{mTitleVsblty}}",
+              "children": [
+                {
+                  "widget": "LinearLayout",
+                  "width": "match",
+                  "height": "content",
+                  "orientation": "horizontal",
+                  "gravity": "bottom",
+                  "children": [
+                    {
+                      "widget": "ImageView",
+                      "width": "24dp",
+                      "height": "24dp",
+                      "corner_radius": "4dp",
+                      "scaleType": "fitXY",
+                      "marginRight": "4dp",
+                      "visibility": "{{mTitleMediaVsblty}}",
+                      "mediaUrl": "{{mTitleMedia}}"
+                    },
+                    {
+                      "widget": "TextView",
+                      "width": "match",
+                      "height": "content",
+                      "textStyle": "bold",
+                      "text": "{{mTitle}}",
+                      "textColor": "#1e1e1e",
+                      "textAlignment": "textStart",
+                      "textSize": "19dp"
+                    }
+                  ]
+                },
+                {
+                  "width": "match",
+                  "height": "2dp",
+                  "widget": "View",
+                  "marginTop": "4dp",
+                  "background": "#1e1e1e"
+                }
+              ]
+            },
+            {
+              "widget": "LinearLayout",
+              "width": "match",
+              "height": "content",
+              "orientation": "vertical",
+              "paddingLeft": "10dp",
+              "paddingRight": "10dp",
+              "children": [
+                {
+                  "widget": "LinearLayout",
+                  "width": "match",
+                  "height": "content",
+                  "marginTop": "8dp",
+                  "orientation": "vertical",
+                  "visibility": "{{descVsblty1}}",
+                  "children": [
+                    {
+                      "widget": "TextView",
+                      "width": "match",
+                      "height": "content",
+                      "textStyle": "bold",
+                      "marginBottom": "1dp",
+                      "text": "{{title1}}",
+                      "textColor": "#1e1e1e",
+                      "textSize": "17dp",
+                      "visibility": "{{descTitleVsblty1}}"
+                    },
+                    {
+                      "widget": "TextView",
+                      "width": "match",
+                      "height": "content",
+                      "textStyle": "normal",
+                      "text": "{{description1}}",
+                      "textColor": "#1e1e1e",
+                      "textSize": "15dp",
+                      "viewAll": "100"
+                    }
+                  ]
+                },
+                {
+                  "widget": "LinearLayout",
+                  "width": "match",
+                  "height": "content",
+                  "marginTop": "6dp",
+                  "orientation": "horizontal",
+                  "children": [
+                    {
+                      "widget": "Button",
+                      "weight": 1,
+                      "width": "content",
+                      "height": "36dp",
+                      "background": "#E4E4E4",
+                      "textColor": "#1e1e1e",
+                      "textSize": "15dp",
+                      "text": "{{btnName1}}",
+                      "textStyle": "normal",
+                      "textAlignment": "center",
+                      "click": {
+                        "action": {
+                          "urlAction": {
+                            "openUrl": {
+                              "url": ""
+                            }
+                          },
+                          "displayText": "dummy"
+                        }
+                      },
+                      "corner_radius": "8dp",
+                      "visibility": "{{btnVsblty1}}"
+                    },
+                    {
+                      "widget": "Button",
+                      "weight": 1,
+                      "width": "content",
+                      "height": "36dp",
+                      "marginLeft": "8dp",
+                      "background": "#E4E4E4",
+                      "textColor": "#1e1e1e",
+                      "textSize": "15dp",
+                      "text": "{{btnName2}}",
+                      "textStyle": "normal",
+                      "textAlignment": "center",
+                      "click": {
+                        "action": {
+                          "urlAction": {
+                            "openUrl": {
+                              "url": ""
+                            }
+                          },
+                          "displayText": "dummy"
+                        }
+                      },
+                      "corner_radius": "8dp",
+                      "visibility": "{{btnVsblty2}}"
+                    }
+                  ]
+                },
+                {
+                  "widget": "LinearLayout",
+                  "width": "match",
+                  "height": "content",
+                  "marginTop": "8dp",
+                  "orientation": "vertical",
+                  "visibility": "{{descVsblty2}}",
+                  "children": [
+                    {
+                      "widget": "TextView",
+                      "width": "match",
+                      "height": "content",
+                      "textStyle": "bold",
+                      "marginBottom": "1dp",
+                      "text": "{{title2}}",
+                      "textColor": "#1e1e1e",
+                      "textSize": "17dp",
+                      "visibility": "{{descTitleVsblty2}}"
+                    },
+                    {
+                      "widget": "TextView",
+                      "width": "match",
+                      "height": "content",
+                      "textStyle": "normal",
+                      "text": "{{description2}}",
+                      "textColor": "#1e1e1e",
+                      "textSize": "15dp",
+                      "viewAll": "100"
+                    }
+                  ]
+                },
+                {
+                  "widget": "LinearLayout",
+                  "width": "match",
+                  "height": "content",
+                  "marginTop": "6dp",
+                  "orientation": "horizontal",
+                  "children": [
+                    {
+                      "widget": "Button",
+                      "weight": 1,
+                      "width": "content",
+                      "height": "36dp",
+                      "background": "#E4E4E4",
+                      "textColor": "#1e1e1e",
+                      "textSize": "15dp",
+                      "text": "{{btnName3}}",
+                      "textStyle": "normal",
+                      "textAlignment": "center",
+                      "click": {
+                        "action": {
+                          "urlAction": {
+                            "openUrl": {
+                              "url": ""
+                            }
+                          },
+                          "displayText": "dummy"
+                        }
+                      },
+                      "corner_radius": "8dp",
+                      "visibility": "{{btnVsblty3}}"
+                    },
+                    {
+                      "widget": "Button",
+                      "weight": 1,
+                      "width": "content",
+                      "height": "36dp",
+                      "marginLeft": "8dp",
+                      "background": "#E4E4E4",
+                      "textColor": "#1e1e1e",
+                      "textSize": "15dp",
+                      "text": "{{btnName4}}",
+                      "textStyle": "normal",
+                      "textAlignment": "center",
+                      "click": {
+                        "action": {
+                          "urlAction": {
+                            "openUrl": {
+                              "url": ""
+                            }
+                          },
+                          "displayText": "dummy"
+                        }
+                      },
+                      "corner_radius": "8dp",
+                      "visibility": "{{btnVsblty4}}"
+                    }
+                  ]
+                },
+                {
+                  "widget": "LinearLayout",
+                  "width": "match",
+                  "height": "content",
+                  "marginTop": "8dp",
+                  "orientation": "vertical",
+                  "visibility": "{{descVsblty3}}",
+                  "children": [
+                    {
+                      "widget": "TextView",
+                      "width": "match",
+                      "height": "content",
+                      "textStyle": "bold",
+                      "marginBottom": "1dp",
+                      "text": "{{title3}}",
+                      "textColor": "#1e1e1e",
+                      "textSize": "17dp",
+                      "visibility": "{{descTitleVsblty3}}"
+                    },
+                    {
+                      "widget": "TextView",
+                      "width": "match",
+                      "height": "content",
+                      "textStyle": "normal",
+                      "text": "{{description3}}",
+                      "textColor": "#1e1e1e",
+                      "textSize": "15dp",
+                      "viewAll": "100"
+                    }
+                  ]
+                },
+                {
+                  "widget": "LinearLayout",
+                  "width": "match",
+                  "height": "content",
+                  "marginTop": "6dp",
+                  "orientation": "horizontal",
+                  "children": [
+                    {
+                      "widget": "Button",
+                      "weight": 1,
+                      "width": "content",
+                      "height": "36dp",
+                      "background": "#E4E4E4",
+                      "textColor": "#1e1e1e",
+                      "textSize": "15dp",
+                      "text": "{{btnName5}}",
+                      "textStyle": "normal",
+                      "textAlignment": "center",
+                      "click": {
+                        "action": {
+                          "urlAction": {
+                            "openUrl": {
+                              "url": ""
+                            }
+                          },
+                          "displayText": "dummy"
+                        }
+                      },
+                      "corner_radius": "8dp",
+                      "visibility": "{{btnVsblty5}}"
+                    },
+                    {
+                      "widget": "Button",
+                      "weight": 1,
+                      "width": "content",
+                      "height": "36dp",
+                      "marginLeft": "8dp",
+                      "background": "#E4E4E4",
+                      "textColor": "#1e1e1e",
+                      "textSize": "15dp",
+                      "text": "{{btnName6}}",
+                      "textStyle": "normal",
+                      "textAlignment": "center",
+                      "click": {
+                        "action": {
+                          "urlAction": {
+                            "openUrl": {
+                              "url": ""
+                            }
+                          },
+                          "displayText": "dummy"
+                        }
+                      },
+                      "corner_radius": "8dp",
+                      "visibility": "{{btnVsblty6}}"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "widget": "LinearLayout",
+              "width": "match",
+              "height": "10dp",
+              "orientation": "vertical"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

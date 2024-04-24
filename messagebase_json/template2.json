@@ -1,0 +1,2328 @@
+{
+  "messagebaseformId": "CLL00001",
+  "formName": "LMS 템플릿 명세서형 타이틀 강조",
+  "productCode": "lms",
+  "spec": "openrichcard",
+  "cardType": "descriptionNew",
+  "bizCondition": "all",
+  "bizCategory": null,
+  "bizService": null,
+  "policyInfo": {
+    "buttonsAllowed": false,
+    "adHeaderAllowed": true,
+    "adBodyAllowed": true,
+    "cardCount": 1,
+    "maxTitleSize": 17,
+    "maxButtonCount": 2,
+    "maxDescriptionSize": 1300,
+    "maxMediaSize": 0
+  },
+  "guideInfo": {
+    "maxLineCount": 2,
+    "maxDisplayText": 17,
+    "maxDescriptionSize": 1300,
+    "imageWidth": 0,
+    "imageHeight": 0
+  },
+  "params": [
+    {
+      "param": "btnName1",
+      "type": "button",
+      "contentType": "buttonName",
+      "strSize": 17,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "btnVsblty1"
+    },
+    {
+      "param": "btnName2",
+      "type": "button",
+      "contentType": "buttonName",
+      "strSize": 17,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "btnVsblty2"
+    },
+    {
+      "param": "btnVsblty1",
+      "type": "button",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "btnVsblty2",
+      "type": "button",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellLeft1",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellVsblty1"
+    },
+    {
+      "param": "cellLeft10",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellVsblty10"
+    },
+    {
+      "param": "cellLeft11",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellVsblty11"
+    },
+    {
+      "param": "cellLeft12",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellVsblty12"
+    },
+    {
+      "param": "cellLeft13",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellVsblty13"
+    },
+    {
+      "param": "cellLeft14",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellVsblty14"
+    },
+    {
+      "param": "cellLeft15",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellVsblty15"
+    },
+    {
+      "param": "cellLeft2",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellVsblty2"
+    },
+    {
+      "param": "cellLeft3",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellVsblty3"
+    },
+    {
+      "param": "cellLeft4",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellVsblty4"
+    },
+    {
+      "param": "cellLeft5",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellVsblty5"
+    },
+    {
+      "param": "cellLeft6",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellVsblty6"
+    },
+    {
+      "param": "cellLeft7",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellVsblty7"
+    },
+    {
+      "param": "cellLeft8",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellVsblty8"
+    },
+    {
+      "param": "cellLeft9",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellVsblty9"
+    },
+    {
+      "param": "cellLineVsblty1",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellLineVsblty10",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellLineVsblty11",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellLineVsblty12",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellLineVsblty13",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellLineVsblty14",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellLineVsblty15",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellLineVsblty2",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellLineVsblty3",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellLineVsblty4",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellLineVsblty5",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellLineVsblty6",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellLineVsblty7",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellLineVsblty8",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellLineVsblty9",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellRight1",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellRightVsblty1"
+    },
+    {
+      "param": "cellRight10",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellRightVsblty10"
+    },
+    {
+      "param": "cellRight11",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellRightVsblty11"
+    },
+    {
+      "param": "cellRight12",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellRightVsblty12"
+    },
+    {
+      "param": "cellRight13",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellRightVsblty13"
+    },
+    {
+      "param": "cellRight14",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellRightVsblty14"
+    },
+    {
+      "param": "cellRight15",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellRightVsblty15"
+    },
+    {
+      "param": "cellRight2",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellRightVsblty2"
+    },
+    {
+      "param": "cellRight3",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellRightVsblty3"
+    },
+    {
+      "param": "cellRight4",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellRightVsblty4"
+    },
+    {
+      "param": "cellRight5",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellRightVsblty5"
+    },
+    {
+      "param": "cellRight6",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellRightVsblty6"
+    },
+    {
+      "param": "cellRight7",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellRightVsblty7"
+    },
+    {
+      "param": "cellRight8",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellRightVsblty8"
+    },
+    {
+      "param": "cellRight9",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellRightVsblty9"
+    },
+    {
+      "param": "cellRightVsblty1",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellRightVsblty10",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellRightVsblty11",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellRightVsblty12",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellRightVsblty13",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellRightVsblty14",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellRightVsblty15",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellRightVsblty2",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellRightVsblty3",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellRightVsblty4",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellRightVsblty5",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellRightVsblty6",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellRightVsblty7",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellRightVsblty8",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellRightVsblty9",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellTitle1",
+      "type": "string",
+      "contentType": "description",
+      "strSize": 30,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellTitleVsblty1"
+    },
+    {
+      "param": "cellTitle2",
+      "type": "string",
+      "contentType": "description",
+      "strSize": 30,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "cellTitleVsblty2"
+    },
+    {
+      "param": "cellTitleVsblty1",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellTitleVsblty2",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellVsblty1",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellVsblty10",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellVsblty11",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellVsblty12",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellVsblty13",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellVsblty14",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellVsblty15",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellVsblty2",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellVsblty3",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellVsblty4",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellVsblty5",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellVsblty6",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellVsblty7",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellVsblty8",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "cellVsblty9",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "descTitleVsblty",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "descVsblty",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "description",
+      "type": "string",
+      "contentType": "description",
+      "strSize": 1300,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "descVsblty"
+    },
+    {
+      "param": "mTitle",
+      "type": "string",
+      "contentType": "title",
+      "strSize": 17,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "mTitleVsblty"
+    },
+    {
+      "param": "mTitleMedia",
+      "type": "file",
+      "contentType": "maapfile",
+      "strSize": -1,
+      "fileSize": 1048576,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": 300,
+      "imageHeight": 300,
+      "couplingId": null,
+      "relationId": "mTitleMediaVsblty"
+    },
+    {
+      "param": "mTitleMediaVsblty",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "mTitleVsblty",
+      "type": "layout",
+      "contentType": "visibility",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "title",
+      "type": "string",
+      "contentType": "description",
+      "strSize": 30,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "isMandatory": false,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": "descTitleVsblty"
+    }
+  ],
+  "formattedString": {
+    "RCSMessage": {
+      "trafficType": "advertisement",
+      "openrichcardMessage": {
+        "card": "open_rich_card",
+        "version": "1.0.0",
+        "zoomAllowed": true,
+        "scaleAllowed": true,
+        "layout": {
+          "widget": "LinearLayout",
+          "width": "match",
+          "height": "content",
+          "orientation": "vertical",
+          "background": "#F2F2F2",
+          "children": [
+            {
+              "widget": "LinearLayout",
+              "width": "match",
+              "height": "content",
+              "marginTop": "10dp",
+              "paddingLeft": "10dp",
+              "paddingRight": "10dp",
+              "orientation": "vertical",
+              "visibility": "{{mTitleVsblty}}",
+              "children": [
+                {
+                  "widget": "LinearLayout",
+                  "width": "match",
+                  "height": "content",
+                  "orientation": "horizontal",
+                  "gravity": "bottom",
+                  "children": [
+                    {
+                      "widget": "LinearLayout",
+                      "width": "match",
+                      "height": "content",
+                      "orientation": "vertical",
+                      "weight": "1",
+                      "children": [
+                        {
+                          "widget": "TextView",
+                          "width": "match",
+                          "height": "content",
+                          "textStyle": "bold",
+                          "text": "{{mTitle}}",
+                          "textColor": "#1e1e1e",
+                          "textSize": "24dp"
+                        }
+                      ]
+                    },
+                    {
+                      "widget": "LinearLayout",
+                      "width": "48dp",
+                      "height": "48dp",
+                      "orientation": "horizontal",
+                      "corner_radius": "4dp",
+                      "marginLeft": "8dp",
+                      "visibility": "{{mTitleMediaVsblty}}",
+                      "children": [
+                        {
+                          "widget": "ImageView",
+                          "width": "match",
+                          "height": "match",
+                          "scaleType": "fitXY",
+                          "mediaUrl": "{{mTitleMedia}}"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "widget": "LinearLayout",
+              "width": "match",
+              "height": "content",
+              "orientation": "vertical",
+              "paddingLeft": "10dp",
+              "paddingRight": "10dp",
+              "children": [
+                {
+                  "widget": "LinearLayout",
+                  "width": "match",
+                  "height": "content",
+                  "marginTop": "8dp",
+                  "orientation": "vertical",
+                  "visibility": "{{descVsblty}}",
+                  "children": [
+                    {
+                      "widget": "TextView",
+                      "width": "match",
+                      "height": "content",
+                      "textStyle": "bold",
+                      "marginBottom": "1dp",
+                      "text": "{{title}}",
+                      "textColor": "#1e1e1e",
+                      "textSize": "17dp",
+                      "visibility": "{{descTitleVsblty}}"
+                    },
+                    {
+                      "widget": "TextView",
+                      "width": "match",
+                      "height": "content",
+                      "textStyle": "normal",
+                      "text": "{{description}}",
+                      "textColor": "#1e1e1e",
+                      "textSize": "15dp",
+                      "viewAll": "100"
+                    }
+                  ]
+                },
+                {
+                  "widget": "LinearLayout",
+                  "width": "match",
+                  "height": "content",
+                  "marginTop": "8dp",
+                  "orientation": "vertical",
+                  "visibility": "{{cellVsblty1}}",
+                  "children": [
+                    {
+                      "widget": "LinearLayout",
+                      "width": "match",
+                      "height": "content",
+                      "orientation": "vertical",
+                      "visibility": "{{cellTitleVsblty1}}",
+                      "children": [
+                        {
+                          "widget": "TextView",
+                          "width": "match",
+                          "height": "content",
+                          "textStyle": "bold",
+                          "text": "{{cellTitle1}}",
+                          "textColor": "#1e1e1e",
+                          "textSize": "17dp",
+                          "marginBottom": "2dp"
+                        },
+                        {
+                          "width": "match",
+                          "height": "1dp",
+                          "widget": "View",
+                          "background": "#1e1e1e",
+                          "marginBottom": "1dp"
+                        }
+                      ]
+                    },
+                    {
+                      "widget": "LinearLayout",
+                      "width": "match",
+                      "height": "content",
+                      "orientation": "vertical",
+                      "visibility": "visible",
+                      "children": [
+                        {
+                          "widget": "LinearLayout",
+                          "width": "match",
+                          "height": "content",
+                          "marginTop": "1dp",
+                          "orientation": "horizontal",
+                          "children": [
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "text": "{{cellLeft1}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "2",
+                              "gravity": "top",
+                              "textAlignment": "textStart"
+                            },
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "marginLeft": "12dp",
+                              "visibility": "{{cellRightVsblty1}}",
+                              "text": "{{cellRight1}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "1",
+                              "textAlignment": "textEnd"
+                            }
+                          ]
+                        },
+                        {
+                          "width": "match",
+                          "height": "1dp",
+                          "widget": "View",
+                          "marginTop": "6dp",
+                          "background": "#949494",
+                          "visibility": "{{cellLineVsblty1}}"
+                        }
+                      ]
+                    },
+                    {
+                      "widget": "LinearLayout",
+                      "width": "match",
+                      "height": "content",
+                      "orientation": "vertical",
+                      "visibility": "{{cellVsblty2}}",
+                      "children": [
+                        {
+                          "widget": "LinearLayout",
+                          "width": "match",
+                          "height": "content",
+                          "orientation": "horizontal",
+                          "marginTop": "1dp",
+                          "children": [
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "text": "{{cellLeft2}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "2",
+                              "gravity": "top",
+                              "textAlignment": "textStart"
+                            },
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "marginLeft": "12dp",
+                              "visibility": "{{cellRightVsblty2}}",
+                              "text": "{{cellRight2}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "1",
+                              "textAlignment": "textEnd"
+                            }
+                          ]
+                        },
+                        {
+                          "width": "match",
+                          "height": "1dp",
+                          "widget": "View",
+                          "marginTop": "6dp",
+                          "background": "#949494",
+                          "visibility": "{{cellLineVsblty2}}"
+                        }
+                      ]
+                    },
+                    {
+                      "widget": "LinearLayout",
+                      "width": "match",
+                      "height": "content",
+                      "orientation": "vertical",
+                      "visibility": "{{cellVsblty3}}",
+                      "children": [
+                        {
+                          "widget": "LinearLayout",
+                          "width": "match",
+                          "height": "content",
+                          "orientation": "horizontal",
+                          "marginTop": "1dp",
+                          "children": [
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "text": "{{cellLeft3}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "2",
+                              "gravity": "top",
+                              "textAlignment": "textStart"
+                            },
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "marginLeft": "12dp",
+                              "visibility": "{{cellRightVsblty3}}",
+                              "text": "{{cellRight3}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "1",
+                              "textAlignment": "textEnd"
+                            }
+                          ]
+                        },
+                        {
+                          "width": "match",
+                          "height": "1dp",
+                          "widget": "View",
+                          "marginTop": "6dp",
+                          "background": "#949494",
+                          "visibility": "{{cellLineVsblty3}}"
+                        }
+                      ]
+                    },
+                    {
+                      "widget": "LinearLayout",
+                      "width": "match",
+                      "height": "content",
+                      "orientation": "vertical",
+                      "visibility": "{{cellVsblty4}}",
+                      "children": [
+                        {
+                          "widget": "LinearLayout",
+                          "width": "match",
+                          "height": "content",
+                          "orientation": "horizontal",
+                          "marginTop": "1dp",
+                          "children": [
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "text": "{{cellLeft4}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "2",
+                              "gravity": "top",
+                              "textAlignment": "textStart"
+                            },
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "marginLeft": "12dp",
+                              "visibility": "{{cellRightVsblty4}}",
+                              "text": "{{cellRight4}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "1",
+                              "textAlignment": "textEnd"
+                            }
+                          ]
+                        },
+                        {
+                          "width": "match",
+                          "height": "1dp",
+                          "widget": "View",
+                          "marginTop": "6dp",
+                          "background": "#949494",
+                          "visibility": "{{cellLineVsblty4}}"
+                        }
+                      ]
+                    },
+                    {
+                      "widget": "LinearLayout",
+                      "width": "match",
+                      "height": "content",
+                      "orientation": "vertical",
+                      "visibility": "{{cellVsblty5}}",
+                      "children": [
+                        {
+                          "widget": "LinearLayout",
+                          "width": "match",
+                          "height": "content",
+                          "orientation": "horizontal",
+                          "marginTop": "1dp",
+                          "children": [
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "text": "{{cellLeft5}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "2",
+                              "gravity": "top",
+                              "textAlignment": "textStart"
+                            },
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "marginLeft": "12dp",
+                              "visibility": "{{cellRightVsblty5}}",
+                              "text": "{{cellRight5}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "1",
+                              "textAlignment": "textEnd"
+                            }
+                          ]
+                        },
+                        {
+                          "width": "match",
+                          "height": "1dp",
+                          "widget": "View",
+                          "marginTop": "6dp",
+                          "background": "#949494",
+                          "visibility": "{{cellLineVsblty5}}"
+                        }
+                      ]
+                    },
+                    {
+                      "widget": "LinearLayout",
+                      "width": "match",
+                      "height": "content",
+                      "orientation": "vertical",
+                      "visibility": "{{cellVsblty6}}",
+                      "children": [
+                        {
+                          "widget": "LinearLayout",
+                          "width": "match",
+                          "height": "content",
+                          "marginTop": "1dp",
+                          "orientation": "horizontal",
+                          "children": [
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "text": "{{cellLeft6}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "2",
+                              "gravity": "top",
+                              "textAlignment": "textStart"
+                            },
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "marginLeft": "12dp",
+                              "visibility": "{{cellRightVsblty6}}",
+                              "text": "{{cellRight6}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "1",
+                              "textAlignment": "textEnd"
+                            }
+                          ]
+                        },
+                        {
+                          "width": "match",
+                          "height": "1dp",
+                          "widget": "View",
+                          "marginTop": "6dp",
+                          "background": "#949494",
+                          "visibility": "{{cellLineVsblty6}}"
+                        }
+                      ]
+                    },
+                    {
+                      "widget": "LinearLayout",
+                      "width": "match",
+                      "height": "content",
+                      "orientation": "vertical",
+                      "visibility": "{{cellVsblty7}}",
+                      "children": [
+                        {
+                          "widget": "LinearLayout",
+                          "width": "match",
+                          "height": "content",
+                          "marginTop": "1dp",
+                          "orientation": "horizontal",
+                          "children": [
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "text": "{{cellLeft7}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "2",
+                              "gravity": "top",
+                              "textAlignment": "textStart"
+                            },
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "marginLeft": "12dp",
+                              "visibility": "{{cellRightVsblty7}}",
+                              "text": "{{cellRight7}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "1",
+                              "textAlignment": "textEnd"
+                            }
+                          ]
+                        },
+                        {
+                          "width": "match",
+                          "height": "1dp",
+                          "widget": "View",
+                          "marginTop": "6dp",
+                          "background": "#949494",
+                          "visibility": "{{cellLineVsblty7}}"
+                        }
+                      ]
+                    },
+                    {
+                      "widget": "LinearLayout",
+                      "width": "match",
+                      "height": "content",
+                      "orientation": "vertical",
+                      "visibility": "{{cellVsblty8}}",
+                      "children": [
+                        {
+                          "widget": "LinearLayout",
+                          "width": "match",
+                          "height": "content",
+                          "marginTop": "1dp",
+                          "orientation": "horizontal",
+                          "children": [
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "text": "{{cellLeft8}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "2",
+                              "gravity": "top",
+                              "textAlignment": "textStart"
+                            },
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "marginLeft": "12dp",
+                              "visibility": "{{cellRightVsblty8}}",
+                              "text": "{{cellRight8}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "1",
+                              "textAlignment": "textEnd"
+                            }
+                          ]
+                        },
+                        {
+                          "width": "match",
+                          "height": "1dp",
+                          "widget": "View",
+                          "marginTop": "6dp",
+                          "background": "#949494",
+                          "visibility": "{{cellLineVsblty8}}"
+                        }
+                      ]
+                    },
+                    {
+                      "widget": "LinearLayout",
+                      "width": "match",
+                      "height": "content",
+                      "orientation": "vertical",
+                      "visibility": "{{cellVsblty9}}",
+                      "children": [
+                        {
+                          "widget": "LinearLayout",
+                          "width": "match",
+                          "height": "content",
+                          "marginTop": "1dp",
+                          "orientation": "horizontal",
+                          "children": [
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "text": "{{cellLeft9}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "2",
+                              "gravity": "top",
+                              "textAlignment": "textStart"
+                            },
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "marginLeft": "12dp",
+                              "visibility": "{{cellRightVsblty9}}",
+                              "text": "{{cellRight9}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "1",
+                              "textAlignment": "textEnd"
+                            }
+                          ]
+                        },
+                        {
+                          "width": "match",
+                          "height": "1dp",
+                          "widget": "View",
+                          "marginTop": "6dp",
+                          "background": "#949494",
+                          "visibility": "{{cellLineVsblty9}}"
+                        }
+                      ]
+                    },
+                    {
+                      "widget": "LinearLayout",
+                      "width": "match",
+                      "height": "content",
+                      "orientation": "vertical",
+                      "visibility": "{{cellVsblty10}}",
+                      "children": [
+                        {
+                          "widget": "LinearLayout",
+                          "width": "match",
+                          "height": "content",
+                          "marginTop": "1dp",
+                          "orientation": "horizontal",
+                          "children": [
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "text": "{{cellLeft10}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "2",
+                              "gravity": "top",
+                              "textAlignment": "textStart"
+                            },
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "marginLeft": "12dp",
+                              "visibility": "{{cellRightVsblty10}}",
+                              "text": "{{cellRight10}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "1",
+                              "textAlignment": "textEnd"
+                            }
+                          ]
+                        },
+                        {
+                          "width": "match",
+                          "height": "1dp",
+                          "widget": "View",
+                          "marginTop": "6dp",
+                          "background": "#949494",
+                          "visibility": "{{cellLineVsblty10}}"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "widget": "LinearLayout",
+                  "width": "match",
+                  "height": "content",
+                  "marginTop": "8dp",
+                  "orientation": "vertical",
+                  "visibility": "{{cellVsblty11}}",
+                  "children": [
+                    {
+                      "widget": "LinearLayout",
+                      "width": "match",
+                      "height": "content",
+                      "orientation": "vertical",
+                      "visibility": "{{cellTitleVsblty2}}",
+                      "children": [
+                        {
+                          "widget": "TextView",
+                          "width": "match",
+                          "height": "content",
+                          "textStyle": "bold",
+                          "text": "{{cellTitle2}}",
+                          "textColor": "#1e1e1e",
+                          "textSize": "17dp",
+                          "marginBottom": "2dp"
+                        },
+                        {
+                          "width": "match",
+                          "height": "1dp",
+                          "widget": "View",
+                          "background": "#1e1e1e",
+                          "marginBottom": "1dp"
+                        }
+                      ]
+                    },
+                    {
+                      "widget": "LinearLayout",
+                      "width": "match",
+                      "height": "content",
+                      "orientation": "vertical",
+                      "visibility": "visible",
+                      "children": [
+                        {
+                          "widget": "LinearLayout",
+                          "width": "match",
+                          "height": "content",
+                          "marginTop": "1dp",
+                          "orientation": "horizontal",
+                          "children": [
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "text": "{{cellLeft11}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "2",
+                              "gravity": "top",
+                              "textAlignment": "textStart"
+                            },
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "marginLeft": "12dp",
+                              "visibility": "{{cellRightVsblty11}}",
+                              "text": "{{cellRight11}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "1",
+                              "textAlignment": "textEnd"
+                            }
+                          ]
+                        },
+                        {
+                          "width": "match",
+                          "height": "1dp",
+                          "widget": "View",
+                          "marginTop": "6dp",
+                          "background": "#949494",
+                          "visibility": "{{cellLineVsblty11}}"
+                        }
+                      ]
+                    },
+                    {
+                      "widget": "LinearLayout",
+                      "width": "match",
+                      "height": "content",
+                      "orientation": "vertical",
+                      "visibility": "{{cellVsblty12}}",
+                      "children": [
+                        {
+                          "widget": "LinearLayout",
+                          "width": "match",
+                          "height": "content",
+                          "orientation": "horizontal",
+                          "marginTop": "1dp",
+                          "children": [
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "text": "{{cellLeft12}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "2",
+                              "gravity": "top",
+                              "textAlignment": "textStart"
+                            },
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "marginLeft": "12dp",
+                              "visibility": "{{cellRightVsblty12}}",
+                              "text": "{{cellRight12}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "1",
+                              "textAlignment": "textEnd"
+                            }
+                          ]
+                        },
+                        {
+                          "width": "match",
+                          "height": "1dp",
+                          "widget": "View",
+                          "marginTop": "6dp",
+                          "background": "#949494",
+                          "visibility": "{{cellLineVsblty12}}"
+                        }
+                      ]
+                    },
+                    {
+                      "widget": "LinearLayout",
+                      "width": "match",
+                      "height": "content",
+                      "orientation": "vertical",
+                      "visibility": "{{cellVsblty13}}",
+                      "children": [
+                        {
+                          "widget": "LinearLayout",
+                          "width": "match",
+                          "height": "content",
+                          "orientation": "horizontal",
+                          "marginTop": "1dp",
+                          "children": [
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "text": "{{cellLeft13}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "2",
+                              "gravity": "top",
+                              "textAlignment": "textStart"
+                            },
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "marginLeft": "12dp",
+                              "visibility": "{{cellRightVsblty13}}",
+                              "text": "{{cellRight13}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "1",
+                              "textAlignment": "textEnd"
+                            }
+                          ]
+                        },
+                        {
+                          "width": "match",
+                          "height": "1dp",
+                          "widget": "View",
+                          "marginTop": "6dp",
+                          "background": "#949494",
+                          "visibility": "{{cellLineVsblty13}}"
+                        }
+                      ]
+                    },
+                    {
+                      "widget": "LinearLayout",
+                      "width": "match",
+                      "height": "content",
+                      "orientation": "vertical",
+                      "visibility": "{{cellVsblty14}}",
+                      "children": [
+                        {
+                          "widget": "LinearLayout",
+                          "width": "match",
+                          "height": "content",
+                          "orientation": "horizontal",
+                          "marginTop": "1dp",
+                          "children": [
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "text": "{{cellLeft14}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "2",
+                              "gravity": "top",
+                              "textAlignment": "textStart"
+                            },
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "marginLeft": "12dp",
+                              "visibility": "{{cellRightVsblty14}}",
+                              "text": "{{cellRight14}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "1",
+                              "textAlignment": "textEnd"
+                            }
+                          ]
+                        },
+                        {
+                          "width": "match",
+                          "height": "1dp",
+                          "widget": "View",
+                          "marginTop": "6dp",
+                          "background": "#949494",
+                          "visibility": "{{cellLineVsblty14}}"
+                        }
+                      ]
+                    },
+                    {
+                      "widget": "LinearLayout",
+                      "width": "match",
+                      "height": "content",
+                      "orientation": "vertical",
+                      "visibility": "{{cellVsblty15}}",
+                      "children": [
+                        {
+                          "widget": "LinearLayout",
+                          "width": "match",
+                          "height": "content",
+                          "orientation": "horizontal",
+                          "marginTop": "1dp",
+                          "children": [
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "text": "{{cellLeft15}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "2",
+                              "gravity": "top",
+                              "textAlignment": "textStart"
+                            },
+                            {
+                              "widget": "TextView",
+                              "width": "match",
+                              "height": "match",
+                              "textStyle": "normal",
+                              "marginLeft": "12dp",
+                              "visibility": "{{cellRightVsblty15}}",
+                              "text": "{{cellRight15}}",
+                              "textColor": "#1e1e1e",
+                              "textSize": "15dp",
+                              "weight": "1",
+                              "textAlignment": "textEnd"
+                            }
+                          ]
+                        },
+                        {
+                          "width": "match",
+                          "height": "1dp",
+                          "widget": "View",
+                          "marginTop": "6dp",
+                          "background": "#949494",
+                          "visibility": "{{cellLineVsblty15}}"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "widget": "LinearLayout",
+                  "width": "match",
+                  "height": "content",
+                  "orientation": "vertical",
+                  "children": [
+                    {
+                      "widget": "LinearLayout",
+                      "width": "match",
+                      "height": "content",
+                      "orientation": "vertical",
+                      "children": [
+                        {
+                          "widget": "Button",
+                          "width": "match",
+                          "height": "36dp",
+                          "marginTop": "6dp",
+                          "background": "#E4E4E4",
+                          "textColor": "#1e1e1e",
+                          "textSize": "15dp",
+                          "text": "{{btnName1}}",
+                          "textStyle": "normal",
+                          "textAlignment": "center",
+                          "click": {
+                            "action": {
+                              "urlAction": {
+                                "openUrl": {
+                                  "url": ""
+                                }
+                              },
+                              "displayText": "dummy"
+                            }
+                          },
+                          "corner_radius": "8dp",
+                          "visibility": "{{btnVsblty1}}"
+                        },
+                        {
+                          "widget": "Button",
+                          "width": "match",
+                          "height": "36dp",
+                          "marginTop": "6dp",
+                          "background": "#E4E4E4",
+                          "textColor": "#1e1e1e",
+                          "textSize": "15dp",
+                          "text": "{{btnName2}}",
+                          "textStyle": "normal",
+                          "textAlignment": "center",
+                          "click": {
+                            "action": {
+                              "urlAction": {
+                                "openUrl": {
+                                  "url": ""
+                                }
+                              },
+                              "displayText": "dummy"
+                            }
+                          },
+                          "corner_radius": "8dp",
+                          "visibility": "{{btnVsblty2}}"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "widget": "LinearLayout",
+              "width": "match",
+              "height": "10dp",
+              "orientation": "vertical"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

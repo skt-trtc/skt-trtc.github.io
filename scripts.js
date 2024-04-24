@@ -1,27 +1,3 @@
-window.onload = (val) => {
-  const buttonContainer = document.getElementById('button_container');
-  const buttonCount = 6; // 버튼 갯수
-
-  for (let i = 0; i < buttonCount; i++) {
-    const button = document.createElement('input');
-    button.value = `${i + 1}번 파일`;
-    button.type = "button";
-    button.className = "json_button";
-    button.onclick = () => {
-      // 각 버튼의 onClick 이벤트 처리
-      readFileToJson(`messagebase${i+1}.json`);
-    };
-    buttonContainer.appendChild(button);
-  }
-
-  // color picker
-  const colorPicker = document.getElementById('color-picker');
-  colorPicker.addEventListener("change", function (v) {
-    const enterColor = document.getElementById('enter-color');
-    enterColor.value = event.target.value;
-  }, false);
-}
-
 let fileData = {}
 let brand_fileData = {}
 
@@ -115,7 +91,7 @@ window.addEventListener('load', function(ev) {
 });
 
 
-function setupData() {
+function passToApp(isTemplate) {
   let json = document.getElementById('input_json').value;
   let preInputted = document.getElementById('pre_inputted').value;
   let color = document.getElementById('enter-color').value;
@@ -123,6 +99,7 @@ function setupData() {
 
   if (json !== "") {
     let val = {
+      "isTemplate": isTemplate,
       "logos" : fileData,
       "brandLogos" : brand_fileData,
       "message": json,
@@ -134,7 +111,7 @@ function setupData() {
     }
 
     // TODO: MUST call function (for passing data to app)
-    window.setupDataOnWeb(val);
+    window.setupData(val);
   }
 }
 
