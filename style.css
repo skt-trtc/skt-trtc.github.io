@@ -49,17 +49,18 @@ body {
 .area#web {
   width: 236px;
   background-color: rgb(240, 240, 240);
+  overflow: auto;
 }
 .area#web_app {
   width: 972px;
 }
 
-#logos {
+.file_div {
   margin-top: 10px;
   display: flex;
 }
 
-#brand-logos {
+.brand-logos {
   margin-top: 5px;
   margin-bottom: 5px;
   display: flex;
@@ -151,8 +152,16 @@ body {
   margin: 8px 0;
   display: flex;
 }
-#result_area {
+.input_maapfile_class {
+  width: 190px;
+  height: 30px;
+  padding: 10px;
+  resize: none;
+  margin: 8px 0;
   display: flex;
+}
+#result_area {
+  display: none;
   flex-direction: column;
   align-items: center;
 }
@@ -172,8 +181,4 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-#result_area {
-  visibility: hidden;
 }
