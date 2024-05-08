@@ -1,0 +1,14 @@
+<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="horizontal_split" clip-path="url(#clip0_787_12148)">
+<g id="Group 6340474">
+<path id="Rectangle 34624383 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M15.8333 4.5319H4.16667V6.19857H15.8333V4.5319ZM2.5 2.86523V7.86523H17.5V2.86523H2.5Z" fill="#949494"/>
+<path id="Rectangle 34624384 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M15.8333 14.5319H4.16667V16.1986H15.8333V14.5319ZM2.5 12.8652V17.8652H17.5V12.8652H2.5Z" fill="#949494"/>
+<path id="Rectangle 34624385" d="M2.5 9.53186H17.5V11.1985H2.5V9.53186Z" fill="#111111"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_787_12148">
+<rect width="20" height="20" fill="white" transform="translate(0 0.365234)"/>
+</clipPath>
+</defs>
+</svg>

@@ -33,10 +33,10 @@ function readMultiFiles(e, type) {
 
   if (files.length === 0) {
     fileNameSpan.textContent = (type === 1) ? "로고 불러오기" : (type === 2) ? "브랜드 로고 불러오기" : "파일 불러오기"
-    removeBtn.style.visibility = "hidden";
+    removeBtn.style.display = "none";
   } else {
     fileNameSpan.textContent = `${files.length}개 파일 선택됨`;
-    removeBtn.style.visibility = "visible";
+    removeBtn.style.display = "flex";
   }
 }
 
@@ -55,7 +55,7 @@ function removeFiles(type) {
       (type === 1) ? "#file-names" : (type === 2) ?"#brand-file-names" : "#maap-file-names");
 
   fileNameSpan.textContent = (type === 1) ? "로고 불러오기" : (type === 2) ? "브랜드 로고 불러오기" : "파일 불러오기"
-  removeBtn.style.visibility = "hidden";
+  removeBtn.style.display = "none";
 }
 
 async function sleep(ms) {
@@ -101,12 +101,20 @@ window.addEventListener('load', function(ev) {
 
 function passToApp(isTemplate) {
   let json = document.getElementById('input_json').value;
+  let formJsonElement = document.getElementById('input_form_json')
+  let formJson = formJsonElement != null ? formJsonElement.value : null;
 
   let preInputtedElement = document.getElementById('pre_inputted');
   let preInputted = preInputtedElement != null ? preInputtedElement.value : null;
 
+  let autoTextListElement = document.getElementById('autotext_list');
+  let autoTextList = autoTextListElement != null ? autoTextListElement.value : null;
+
   let color = document.getElementById('enter-color').value;
   let previewOnly = document.getElementById('preview_only').checked;
+
+  let brandColorElement = document.getElementById('enter-brand-color');
+  let brandColor = brandColorElement != null ? brandColorElement.value : "";
 
   let maap_fileData_json = {};
   let maapFileIdsElement = document.getElementById('maap_file_ids');
@@ -124,49 +132,75 @@ function passToApp(isTemplate) {
   }
 
   if (json !== "") {
-    let val = {
-      "isTemplate": isTemplate,
-      "logos" : fileData,
-      "brandLogos" : brand_fileData,
-      "maapFiles" : maap_fileData_json,
-      "message": json,
-      "preInputted" : preInputted,
-      "colors": {
-        "main": color
-      },
-      "previewOnly": previewOnly
-    }
-
     // TODO: MUST call function (for passing data to app)
-    window.setupData(val);
+    window.setupData({
+      "displayedItem": {
+        "previewOnly": previewOnly,
+        "inputEnable": true,
+        "imageEditor": true,
+        "autoTextList": autoTextList,
+      },
+      "layoutTheme": {
+        "themeColor": color,
+        "themeType": "regular",
+      },
+      "message" : {
+        "isTemplate": isTemplate,
+        "message": json,
+        "messagebaseForm": formJson,
+        "logos" : fileData,
+        "brandLogos" : brand_fileData,
+        "brandThemeColor" : brandColor,
+        "maapFiles" : maap_fileData_json,
+        "preInputted" : preInputted,
+      }
+    });
   }
 }
 
 // TODO: MUST implement function (listen)
-window.onExportToWeb = (val) => {
+window.onExport = (val) => {
   document.getElementById("result_area").style.display = "flex";
   document.getElementById("result").value = val;
 }
 
 // TODO: MUST implement function (listen)
 window.onRequestUpload = async (json) => {
-  // like upload network delay
-  await sleep(1000);
-
   let retJson = {}
   const keys = Object.keys(json);
   for (var i = 0; i < keys.length; i++) {
     const key = keys[i];
-    const byte = json[key];
-    //console.log("key : " + key + ", value : " + byte.length)
+
+    // like upload network delay
+    await sleep(1000);
+
+    // make { key : maapFileId }
     retJson[key] = "maapfile://fileId_" + key + ".jpg";
   }
   return Promise.resolve(retJson);
 }
 
+window.onLoadImage = async () => {
+  // like network delay
+  await sleep(1000);
+
+  // make { maapFileId : bytes }
+  let maapFileId = "maapfile://fileId_123";
+  let utf8Encode = new TextEncoder();
+  let bytes = utf8Encode.encode("EXAMPLE_FILE_BYTE_ARRAY");
+
+  let retJson = {};
+  retJson[maapFileId] = bytes;
+  return Promise.resolve(retJson);
+}
+
 // TODO: MUST implement function (listen)
-window.onCloseApp = (rewrite) => {
+window.onClose = (rewrite) => {
   document.getElementById('input_json').value = '';
+  let formJsonElement = document.getElementById('input_form_json')
+  if (formJsonElement != null) {
+    formJsonElement.value = '';
+  }
   document.getElementById('pre_inputted').value = '';
   document.getElementById("result_area").style.display = "none";
   document.getElementById("result").value = '';
