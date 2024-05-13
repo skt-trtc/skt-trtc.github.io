@@ -138,11 +138,16 @@ function passToApp(isTemplate) {
         "previewOnly": previewOnly,
         "inputEnable": true,
         "imageEditor": true,
+        "guideText": "메시지 작성에 필요한 변수를 클릭하면 자동으로 복사됩니다.",
         "autoTextList": autoTextList,
       },
       "layoutTheme": {
         "themeColor": color,
-        "themeType": "regular",
+        "themeTitleColor": "#111111",
+        "themeTitleSize": 24,
+        "themeLineWidth": 4,
+        "previewIsLeft": false,
+        "previewLineOpacity": 100,
       },
       "message" : {
         "isTemplate": isTemplate,
