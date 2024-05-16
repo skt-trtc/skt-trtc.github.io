@@ -13,9 +13,9 @@
   <meta name="apple-mobile-web-app-title" content="biz_rcs_tool">
 
   <!-- Croppie -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.min.css" />
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/exif-js/2.3.0/exif.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.min.js"></script>
+  <link rel="stylesheet" href="croppie/croppie.min.css" />
+  <script defer src="croppie/exif.min.js"></script>
+  <script src="croppie/croppie.min.js"></script>
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
@@ -26,7 +26,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "2271230660";
+    const serviceWorkerVersion = "912875749";
   </script>
   <script type="text/javascript" src="scripts.js"></script>
   <!-- This script adds the flutter initialization JS code -->
@@ -83,9 +83,13 @@
           }
         </script>
       </div>
-      <div class="center_div">
+      <div class="inline_block_div">
         <input type="checkbox" id="preview_only" style="margin-left: auto" />
         <label for="preview_only" style="margin-right: auto">미리보기 전용</label>
+      </div>
+      <div class="inline_block_div">
+        <input type="checkbox" id="input_enable" style="margin-left: auto" checked />
+        <label for="input_enable" style="margin-right: auto">입력 활성화</label>
       </div>
       <div>
         <textarea id="input_json" placeholder="insert json" class="input_json_class"></textarea>
