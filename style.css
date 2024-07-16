@@ -4,6 +4,17 @@ body {
   height: 100%;
 }
 
+.parent_container {
+  position: relative;
+  height: 100%
+}
+
+.version_container {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
 .main_row {
   display: flex;
   flex-wrap: wrap;
