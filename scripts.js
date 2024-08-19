@@ -149,6 +149,8 @@ function passToApp(isTemplate) {
         "themeLineWidth": 4,
         "previewIsLeft": false,
         "previewLineOpacity": 100,
+        "previewMarginLeft": previewOnly ? 0 : 32,
+        "previewMarginTop": previewOnly ? 0 : 16,
       },
       "message" : {
         "isTemplate": isTemplate,
