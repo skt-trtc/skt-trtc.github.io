@@ -39,9 +39,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "ce72b1759234988120f9e4866679bd12
 "croppie/exif.min.js": "48814126e2cd29ac30e68e012934c6d8",
 "favicon.png": "86fac5a7e6ecb4d87ab529bf6d7af41a",
 "flutter.js": "c71a09214cb6f5f8996a531350400a9a",
-"index.html": "3d0f79419aebd4e5ba468977d834aaf6",
-"/": "3d0f79419aebd4e5ba468977d834aaf6",
-"main.dart.js": "73cf20234752d31d58637c60ba442787",
+"index.html": "519e932a92fc2a3deeabf93d96285a0c",
+"/": "519e932a92fc2a3deeabf93d96285a0c",
+"main.dart.js": "45daeb4b5c3f2acb5a148428adc8a201",
 "manifest.json": "745a7129751ddb1899295062d5871c41",
 "messagebase_json/messagebase1.json": "b18b3a86c1ba427c585d9090512fc08c",
 "messagebase_json/messagebase2.json": "40b62148b751a0b0e925ee993d74e218",
@@ -53,7 +53,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "ce72b1759234988120f9e4866679bd12
 "scripts.js": "8ac366b9f4785c4a14861b1832f0a158",
 "style.css": "c3386c8477fc3529c4b5120dd6fe07bb",
 "template.html": "d82584a25bfb7d7e799beeba82b4e979",
-"version.json": "823c6a79fd31c16fd5bf452d4499173a"};
+"version.json": "844d39451fd2c17012637d9c8b4e9211"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
