@@ -204,12 +204,24 @@ window.onLoadImage = async () => {
 
 // TODO: MUST implement function (listen)
 window.onClose = (rewrite) => {
-  document.getElementById('input_json').value = '';
-  let formJsonElement = document.getElementById('input_form_json')
+  let input_jsonElement = document.getElementById('input_json');
+  if (input_jsonElement != null) {
+    input_jsonElement.value = '';
+  }
+  let formJsonElement = document.getElementById('input_form_json');
   if (formJsonElement != null) {
     formJsonElement.value = '';
   }
-  document.getElementById('pre_inputted').value = '';
-  document.getElementById("result_area").style.display = "none";
-  document.getElementById("result").value = '';
+  let pre_inputtedElement = document.getElementById('pre_inputted');
+  if (pre_inputtedElement != null) {
+    pre_inputtedElement.value = '';
+  }
+  let result_areaElement = document.getElementById("result_area");
+  if (result_areaElement != null) {
+    result_areaElement.style.display = "none";
+  }
+  let resultElement = document.getElementById("result");
+  if (resultElement != null) {
+    resultElement.value = '';
+  }
 }
