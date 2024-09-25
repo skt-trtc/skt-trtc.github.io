@@ -90,7 +90,6 @@ window.addEventListener('load', function(ev) {
     onEntrypointLoaded: function(engineInitializer) {
       engineInitializer.initializeEngine({
         hostElement: appArea,
-        renderer: "html",
       }).then(function(appRunner) {
         appRunner.runApp();
       });
