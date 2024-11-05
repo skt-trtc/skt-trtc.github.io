@@ -1,38 +1,25 @@
-let fileData = {}
 let brand_fileData = {}
-let maap_fileData = []
 
 function readMultiFiles(e, type) {
-  if (type === 1) {
-    fileData = {};
-  } else if (type === 2) {
-    brand_fileData = {};
-  } else if (type === 3) {
-    maap_fileData = []
-  }
+  brand_fileData = {};
+
   const files = e.currentTarget.files;
   Object.keys(files).forEach(i => {
     const file = files[i];
     const reader = new FileReader();
     reader.onload = () => {
-      if (type === 1) {
-        fileData[`maapfile://fileId_${file.name}`] = reader.result;
-      } else if (type === 2) {
-        brand_fileData[`maapfile://fileId_${file.name}`] = reader.result;
-      } else if (type === 3) {
-        maap_fileData.push(reader.result);
-      }
+      brand_fileData[`maapfile://fileId_${file.name}`] = reader.result;
     }
     reader.readAsArrayBuffer(file);
   })
 
   const removeBtn = document.querySelector(
-      (type === 1) ? "#file-remove" : (type === 2) ? "#brand-file-remove" : "#maap-file-remove");
+      "#brand-file-remove");
   const fileNameSpan = document.querySelector(
-      (type === 1) ? "#file-names" : (type === 2) ?"#brand-file-names" : "#maap-file-names");
+      "#brand-file-names");
 
   if (files.length === 0) {
-    fileNameSpan.textContent = (type === 1) ? "로고 불러오기" : (type === 2) ? "브랜드 로고 불러오기" : "파일 불러오기"
+    fileNameSpan.textContent = "브랜드 로고 불러오기"
     removeBtn.style.display = "none";
   } else {
     fileNameSpan.textContent = `${files.length}개 파일 선택됨`;
@@ -41,20 +28,14 @@ function readMultiFiles(e, type) {
 }
 
 function removeFiles(type) {
-  if (type === 1) {
-    fileData = {};
-  } else if (type === 2) {
-    brand_fileData = {};
-  } else if (type === 3) {
-    maap_fileData = [];
-  }
+  brand_fileData = {};
 
   const removeBtn = document.querySelector(
-      (type === 1) ? "#file-remove" : (type === 2) ? "#brand-file-remove" : "#maap-file-remove");
+      "#brand-file-remove");
   const fileNameSpan = document.querySelector(
-      (type === 1) ? "#file-names" : (type === 2) ?"#brand-file-names" : "#maap-file-names");
+      "#brand-file-names");
 
-  fileNameSpan.textContent = (type === 1) ? "로고 불러오기" : (type === 2) ? "브랜드 로고 불러오기" : "파일 불러오기"
+  fileNameSpan.textContent = "브랜드 로고 불러오기"
   removeBtn.style.display = "none";
 }
 
@@ -116,20 +97,8 @@ function passToApp(isTemplate) {
   let brandColorElement = document.getElementById('enter-brand-color');
   let brandColor = brandColorElement != null ? brandColorElement.value : "";
 
-  let maap_fileData_json = {};
-  let maapFileIdsElement = document.getElementById('maap_file_ids');
-  if (maapFileIdsElement != null) {
-    let maapFileIdJson = maapFileIdsElement.value;
-    if (maapFileIdJson.length > 0) {
-      let maapFileIds = JSON.parse(maapFileIdJson);
-      for (var i = 0; i < maapFileIds.length; i++) {
-        let m = maapFileIds[i];
-        if (i < maap_fileData.length) {
-          maap_fileData_json[m] = maap_fileData[i];
-        }
-      }
-    }
-  }
+  let maapFileIdUrlMap = document.getElementById('maap_file_id_url_map');
+  let maapFileIdToUrl = maapFileIdUrlMap != null ? maapFileIdUrlMap.value : null;
 
   if (json !== "") {
     // TODO: MUST call function (for passing data to app)
@@ -155,10 +124,9 @@ function passToApp(isTemplate) {
         "isTemplate": isTemplate,
         "message": json,
         "messagebaseForm": formJson,
-        "logos" : fileData,
         "brandLogos" : brand_fileData,
         "brandThemeColor" : brandColor,
-        "maapFiles" : maap_fileData_json,
+        "maapFileIdToUrl" : maapFileIdToUrl,
         "preInputted" : preInputted,
       }
     });
