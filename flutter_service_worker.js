@@ -45,10 +45,10 @@ const RESOURCES = {"assets/AssetManifest.bin": "c4add051926e4d97f7a4a999cb8285ca
 "croppie/exif.min.js": "48814126e2cd29ac30e68e012934c6d8",
 "favicon.png": "86fac5a7e6ecb4d87ab529bf6d7af41a",
 "flutter.js": "f393d3c16b631f36852323de8e583132",
-"flutter_bootstrap.js": "92bb93423632b2de9f5063cddbebe3ef",
-"index.html": "3687ccb422da1e5d8afe14d19595c6b7",
-"/": "3687ccb422da1e5d8afe14d19595c6b7",
-"main.dart.js": "2cf5c036c0e187d031aa65810367a362",
+"flutter_bootstrap.js": "696a947c595b5927ebfbd89fcea79033",
+"index.html": "6b2e9cf0ec1d43578d77fce4c133e5aa",
+"/": "6b2e9cf0ec1d43578d77fce4c133e5aa",
+"main.dart.js": "dc2d044c30764ac7e43f9d6462b0b805",
 "manifest.json": "745a7129751ddb1899295062d5871c41",
 "messagebase_json/messagebase1.json": "b18b3a86c1ba427c585d9090512fc08c",
 "messagebase_json/messagebase2.json": "40b62148b751a0b0e925ee993d74e218",
@@ -56,11 +56,11 @@ const RESOURCES = {"assets/AssetManifest.bin": "c4add051926e4d97f7a4a999cb8285ca
 "messagebase_json/messagebase4.json": "51d15b39e026ad03072022ced17222aa",
 "messagebase_json/template1.json": "45aa18edbddec5434161053593194df7",
 "messagebase_json/template2.json": "978755bc36dbc1cef09e7d81b83cec38",
-"message_base.html": "562256b1cab1452dbd9a2ff9bf72ad1c",
+"message_base.html": "f6425d26b39f3454963f20237d62df38",
 "scripts.js": "2230385c92924c1a38f1571da0b21e75",
 "style.css": "a00ff7d2cb0c5b8531be4164a0561d61",
 "template.html": "9bfb57cd8cd03ed769e124399c023d92",
-"version.json": "f5dac8d010dada808a93a327a0d1f76b"};
+"version.json": "4255980ef392a1133e2a918a96cd402e"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
