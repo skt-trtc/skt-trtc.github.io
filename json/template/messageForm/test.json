@@ -1,0 +1,90 @@
+{
+    "messagebaseformId": "RPISMMX001",
+    "chatbots": null,
+    "isPublic": true,
+    "agencyId": null,
+    "productCode": "itmpl",
+    "spec": "richcardPlus",
+    "cardType": "standalone media top",
+    "status": "ready",
+    "desc": "통합 이미지 템플릿 M",
+    "bizCondition": "all",
+    "bizCategory": null,
+    "bizService": null,
+    "policyInfo": {
+        "cardCount": 1,
+        "maxTitleSize": 30,
+        "maxDescriptionSize": 500,
+        "maxMediaSize": 1048576,
+        "maxButtonCount": 2,
+        "buttonsAllowed": false,
+        "adHeaderAllowed": false,
+        "adBodyAllowed": true
+    },
+    "params": [
+        {
+            "param": "description",
+            "type": "string",
+            "contentType": "description",
+            "strSize": 500,
+            "fileSize": 0,
+            "verification": [
+            ],
+            "isMandatory": false,
+            "couplingId": "",
+            "relationId": null,
+            "imageWidth": 0,
+            "imageHeight": 0
+        },
+        {
+            "param": "media",
+            "type": "file",
+            "contentType": "maapfile",
+            "strSize": -1,
+            "fileSize": 1048576,
+            "verification": [
+            ],
+            "isMandatory": true,
+            "couplingId": "",
+            "relationId": null,
+            "imageWidth": 0,
+            "imageHeight": 0
+        },
+        {
+            "param": "title",
+            "type": "string",
+            "contentType": "title",
+            "strSize": 30,
+            "fileSize": 0,
+            "verification": [
+            ],
+            "isMandatory": false,
+            "couplingId": "",
+            "relationId": null,
+            "imageWidth": 0,
+            "imageHeight": 0
+        }
+    ],
+    "formattedString": {
+        "RCSMessage": {
+            "trafficType": "advertisement",
+            "richcardMessage": {
+                "message": {
+                    "generalPurposeCard": {
+                        "layout": {
+                            "cardOrientation": "VERTICAL"
+                        },
+                        "content": {
+                            "media": {
+                                "mediaUrl": "{{media}}",
+                                "height": "MEDIUM_HEIGHT"
+                            },
+                            "title": "{{title}}",
+                            "description": "{{description}}"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
