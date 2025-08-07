@@ -1,0 +1,140 @@
+{
+  "groupId": null,
+  "messagebaseId": "UBR.Jjhx1pu92m-o2jq9a6UMt7K6f5vjvt3801q8",
+  "tmpltName": "템플릿_선택형_회원가입",
+  "messagebaseformId": "FF005D",
+  "brandId": "BR.",
+  "status": "ready",
+  "approvalResult": "승인",
+  "approvalReason": "승인완료",
+  "registerDate": "2024-04-16T18:14:14.000+09",
+  "approvalDate": "2024-04-17T09:12:43.000+09",
+  "updateDate": "2024-04-17T09:12:40.000+09",
+  "registerId": "sktelecom",
+  "updateId": null,
+  "productCode": "tmplt",
+  "spec": "openrichcard",
+  "cardType": "description",
+  "agencyId": "sktelecom",
+  "inputText": "{{고객명}}님, 회원가입해주셔서 감사합니다.",
+  "attribute": [
+    "정보통신/SW",
+    "일반",
+    "회원가입"
+  ],
+  "guideInfo": {
+    "maxLineCount": 0,
+    "maxDisplayText": 17,
+    "maxDescriptionSize": 90,
+    "imageWidth": "0",
+    "imageHeight": "0",
+    "detailInfo": null
+  },
+  "policyInfo": {
+    "cardCount": 1,
+    "maxTitleSize": 0,
+    "maxButtonCount": 2,
+    "maxDescriptionSize": 90,
+    "maxMediaSize": 1048576,
+    "buttonsAllowed": false,
+    "adHeaderAllowed": false,
+    "adBodyAllowed": true
+  },
+  "params": [
+    {
+      "param": "description",
+      "isMandatory": true,
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": null,
+      "strRegx": "^.+(님, 회원가입해주셔서 감사합니다\\.)$",
+      "verification": [
+        "",
+        "님, 회원가입해주셔서 감사합니다."
+      ],
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "inputText": "{{고객명}}님, 회원가입해주셔서 감사합니다."
+    },
+    {
+      "param": "id",
+      "isMandatory": true,
+      "type": "string",
+      "contentType": "etc",
+      "strSize": -1,
+      "fileSize": null,
+      "strRegx": null,
+      "verification": [
+        
+      ],
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "inputText": null
+    }
+  ],
+  "formattedString": {
+    "RCSMessage": {
+      "trafficType": "advertisement",
+      "openrichcardMessage": {
+        "card": "open_rich_card",
+        "layout": {
+          "width": "284dp",
+          "height": "content",
+          "widget": "LinearLayout",
+          "children": [
+            {
+              "width": "content",
+              "height": "content",
+              "widget": "ImageView",
+              "mediaUrl": "maapfile://LT-messagebase.common-zRi2xj",
+              "paddingTop": "16dp",
+              "marginBottom": "8dp"
+            },
+            {
+              "width": "match",
+              "height": "content",
+              "widget": "LinearLayout",
+              "children": [
+                {
+                  "text": "{{description}}",
+                  "width": "content",
+                  "height": "content",
+                  "widget": "TextView",
+                  "textSize": "17dp",
+                  "textColor": "#404040",
+                  "paddingBottom": "8dp",
+                  "textAlignment": "textStart"
+                }
+              ],
+              "orientation": "vertical",
+              "paddingBottom": "8dp"
+            }
+          ],
+          "background": "#ffffff",
+          "orientation": "vertical",
+          "paddingLeft": "16dp",
+          "paddingRight": "16dp"
+        },
+        "zoomAllowed": true,
+        "suggestions": [
+          {
+            "action": {
+              "clipboardAction": {
+                "copyToClipboard": {
+                  "text": "{{id}}"
+                }
+              },
+              "displayText": "회원 ID 보기",
+              "postback": {
+                "data": "set_by_chatbot_copy_to_clipboard"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "groupId": null,
+  "messagebaseId": "UBR.Jjhx1pu92m-bm2d36o9nRMb82Re7E00008Z3",
+  "tmpltName": "템플릿_선택형_승인_테이블",
+  "messagebaseformId": "FF001C",
+  "brandId": "BR.",
+  "status": "ready",
+  "approvalResult": "승인",
+  "approvalReason": "승인완료",
+  "registerDate": "2024-04-16T14:36:38.000+09",
+  "approvalDate": "2024-04-16T16:20:07.000+09",
+  "updateDate": "2024-04-16T16:20:06.000+09",
+  "registerId": "sktelecom",
+  "updateId": null,
+  "productCode": "tmplt",
+  "spec": "openrichcard",
+  "cardType": "cell",
+  "agencyId": "sktelecom",
+  "inputText": null,
+  "attribute": [
+    "정보통신/SW",
+    "금융",
+    "승인"
+  ],
+  "guideInfo": {
+    "maxLineCount": 0,
+    "maxDisplayText": 17,
+    "maxDescriptionSize": 90,
+    "imageWidth": "0",
+    "imageHeight": "0",
+    "detailInfo": null
+  },
+  "policyInfo": {
+    "cardCount": 1,
+    "maxTitleSize": 0,
+    "maxButtonCount": 2,
+    "maxDescriptionSize": 1,
+    "maxMediaSize": 1048576,
+    "buttonsAllowed": false,
+    "adHeaderAllowed": false,
+    "adBodyAllowed": true
+  },
+  "params": [
+    {
+      "param": "월",
+      "isMandatory": true,
+      "type": "string",
+      "contentType": "cell",
+      "strSize": -1,
+      "fileSize": null,
+      "strRegx": null,
+      "verification": [],
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "inputText": null
+    }
+  ],
+  "formattedString": {
+    "RCSMessage": {
+      "trafficType": "advertisement",
+      "openrichcardMessage": {
+        "card": "open_rich_card",
+        "layout": {
+          "width": "284dp",
+          "height": "content",
+          "widget": "LinearLayout",
+          "children": [
+            {
+              "width": "content",
+              "height": "content",
+              "widget": "ImageView",
+              "mediaUrl": "maapfile://LT-messagebase.common-S9jl3j",
+              "paddingTop": "16dp",
+              "marginBottom": "8dp"
+            },
+            {
+              "width": "match",
+              "height": "content",
+              "widget": "LinearLayout",
+              "children": [
+                {
+                  "width": "match",
+                  "height": "content",
+                  "widget": "LinearLayout",
+                  "children": [
+                    {
+                      "text": "등록하신 템플릿이 승인되었습니다.",
+                      "width": "match",
+                      "height": "content",
+                      "weight": 1.0,
+                      "widget": "TextView",
+                      "textSize": "18dp",
+                      "textColor": "#404040",
+                      "textAlignment": "textStart",
+                      "textStyle": "bold"
+                    },
+                    {
+                      "text": "",
+                      "width": "match",
+                      "height": "content",
+                      "weight": 1.0,
+                      "widget": "TextView",
+                      "textSize": "14dp",
+                      "textColor": "#404040",
+                      "textAlignment": "textEnd"
+                    }
+                  ],
+                  "visibility": "visible",
+                  "orientation": "horizontal",
+                  "paddingBottom": "8dp"
+                },
+                {
+                  "width": "match",
+                  "height": "1dp",
+                  "widget": "View",
+                  "background": "#c0c0c0",
+                  "visibility": "visible",
+                  "marginBottom": "8dp"
+                },
+                {
+                  "width": "match",
+                  "height": "content",
+                  "widget": "LinearLayout",
+                  "children": [
+                    {
+                      "text": "항상 최선을 다하는 SK텔레콤이 되겠습니다. \n{{월}} 고지서를 받으시려면 고객센터로 문의주시기 바랍니다.",
+                      "width": "match",
+                      "height": "content",
+                      "weight": 1.0,
+                      "widget": "TextView",
+                      "textSize": "14dp",
+                      "textColor": "#404040",
+                      "textAlignment": "textStart"
+                    }
+                  ],
+                  "visibility": "visible",
+                  "orientation": "horizontal",
+                  "paddingBottom": "8dp"
+                },
+                {
+                  "width": "match",
+                  "height": "content",
+                  "widget": "LinearLayout",
+                  "children": [
+                    {
+                      "text": "항상 이용해주셔서 감사합니다.",
+                      "width": "match",
+                      "height": "content",
+                      "weight": 1.0,
+                      "widget": "TextView",
+                      "textSize": "14dp",
+                      "textColor": "#C0C0C0",
+                      "textAlignment": "textEnd"
+                    }
+                  ],
+                  "visibility": "visible",
+                  "orientation": "horizontal",
+                  "paddingBottom": "8dp"
+                }
+              ],
+              "orientation": "vertical",
+              "paddingBottom": "8dp"
+            }
+          ],
+          "background": "#ffffff",
+          "orientation": "vertical",
+          "paddingLeft": "16dp",
+          "paddingRight": "16dp"
+        },
+        "zoomAllowed": true,
+        "suggestions": [
+          {
+            "action": {
+              "urlAction": {
+                "openUrl": {
+                  "url": "https://bizrcs.co.kr/login"
+                }
+              },
+              "displayText": "고객센터",
+              "postback": {
+                "data": "set_by_chatbot_open_url"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

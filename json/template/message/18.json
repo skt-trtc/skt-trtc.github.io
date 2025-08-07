@@ -1,0 +1,210 @@
+{
+  "groupId": null,
+  "messagebaseId": "IBR.Jjhx1pu92m-pb913XQyJij1FEfHz5057X8NI",
+  "tmpltName": "슬라이드형 템플릿",
+  "messagebaseformId": "ITCRM2",
+  "brandId": "BR.",
+  "status": "ready",
+  "approvalResult": "승인",
+  "approvalReason": "1ㅇㅇ",
+  "registerDate": "2024-04-16T19:59:32.000+09",
+  "approvalDate": "2024-04-17T09:11:57.000+09",
+  "updateDate": "2024-04-17T09:11:57.000+09",
+  "registerId": "sktelecom",
+  "updateId": null,
+  "productCode": "itmpl",
+  "spec": "richcard",
+  "cardType": "carousel medium",
+  "agencyId": "sktelecom",
+  "inputText": null,
+  "attribute": [
+    "정보통신/SW",
+    null,
+    null
+  ],
+  "guideInfo": {
+    "maxLineCount": 4,
+    "maxDisplayText": 13,
+    "maxDescriptionSize": 60,
+    "imageWidth": "696",
+    "imageHeight": "504",
+    "detailInfo": null
+  },
+  "policyInfo": {
+    "cardCount": 2,
+    "maxTitleSize": 30,
+    "maxButtonCount": 2,
+    "maxDescriptionSize": 500,
+    "maxMediaSize": 1048576,
+    "buttonsAllowed": false,
+    "adHeaderAllowed": true,
+    "adBodyAllowed": true
+  },
+  "params": [
+    {
+      "param": "description1",
+      "isMandatory": true,
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": null,
+      "strRegx": "^.+(님, 안녕하세요\\. )$",
+      "verification": [
+        "",
+        "님, 안녕하세요. "
+      ],
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "inputText": "{{고객명}}님, 안녕하세요. "
+    },
+    {
+      "param": "description2",
+      "isMandatory": true,
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": null,
+      "strRegx": "^(파리 올림픽에서 활약할 국가대표에게 응원의 메시지를 전달하세요\\!)$",
+      "verification": [
+        "파리 올림픽에서 활약할 국가대표에게 응원의 메시지를 전달하세요!"
+      ],
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "inputText": "파리 올림픽에서 활약할 국가대표에게 응원의 메시지를 전달하세요!"
+    },
+    {
+      "param": "title1",
+      "isMandatory": true,
+      "type": "string",
+      "contentType": "title",
+      "strSize": -1,
+      "fileSize": null,
+      "strRegx": "^(파리 올림픽 X Biz RCS)$",
+      "verification": [
+        "파리 올림픽 X Biz RCS"
+      ],
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "inputText": "파리 올림픽 X Biz RCS"
+    },
+    {
+      "param": "title2",
+      "isMandatory": true,
+      "type": "string",
+      "contentType": "title",
+      "strSize": -1,
+      "fileSize": null,
+      "strRegx": "^(함께 가자\\!)$",
+      "verification": [
+        "함께 가자!"
+      ],
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "inputText": "함께 가자!"
+    }
+  ],
+  "formattedString": {
+    "RCSMessage": {
+      "trafficType": "advertisement",
+      "richcardMessage": {
+        "message": {
+          "generalPurposeCardCarousel": {
+            "layout": {
+              "cardWidth": "MEDIUM_WIDTH"
+            },
+            "content": [
+              {
+                "description": "{{description1}}",
+                "media": {
+                  "mediaUrl": "maapfile://LT-BR.Jjhx1pu92m-K1FN",
+                  "height": "MEDIUM_HEIGHT"
+                },
+                "title": "{{title1}}",
+                "suggestions": [
+                  {
+                    "action": {
+                      "urlAction": {
+                        "openUrl": {
+                          "url": "https://bizrcs.co.kr/login"
+                        }
+                      },
+                      "displayText": "웹 연결하기",
+                      "postback": {
+                        "data": "set_by_chatbot_open_url"
+                      }
+                    }
+                  },
+                  {
+                    "action": {
+                      "mapAction": {
+                        "showLocation": {
+                          "location": {
+                            "query": "SK T 타워"
+                          },
+                          "fallbackUrl": "https://bizrcs.co.kr/login"
+                        }
+                      },
+                      "displayText": "지도 보여주기",
+                      "postback": {
+                        "data": "set_by_chatbot_search_locations"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "description": "{{description2}}",
+                "media": {
+                  "mediaUrl": "maapfile://LT-BR.Jjhx1pu92m-42wv",
+                  "height": "MEDIUM_HEIGHT"
+                },
+                "title": "{{title2}}",
+                "suggestions": [
+                  {
+                    "action": {
+                      "mapAction": {
+                        "showLocation": {
+                          "location": {
+                            "latitude": "12",
+                            "longitude": "34",
+                            "label": "SK 티 타워"
+                          },
+                          "fallbackUrl": "https://bizrcs.co.kr/login"
+                        }
+                      },
+                      "displayText": "지도 보여주기 좌표",
+                      "postback": {
+                        "data": "set_by_chatbot_show_location"
+                      }
+                    }
+                  },
+                  {
+                    "action": {
+                      "calendarAction": {
+                        "createCalendarEvent": {
+                          "startTime": "2024-04-04T00:00:00.000+09",
+                          "endTime": "2024-05-29T00:00:00.000+09",
+                          "title": "응원하기",
+                          "description": "응원 메시지를 공지사항에 남겨주세요."
+                        }
+                      },
+                      "displayText": "캘린더 등록하기",
+                      "postback": {
+                        "data": "set_by_chatbot_create_calendar_event"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "zoomAllowed": false
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "messagebaseformId": "FF005D",
+  "formName": "명세서 D",
+  "cardType": "description",
+  "bizCondition": [
+    "all"
+  ],
+  "bizCategory": "금융",
+  "bizService": "명세서",
+  "registerDate": "2021-04-19T11:06:58.000+09",
+  "updateDate": "2023-10-27T17:32:19.000+09",
+  "mediaUrl": [
+    {
+      "fileId": "LT-messagebase.common-qE1mwe",
+      "fileName": "명세서.png",
+      "url": "https://file-qa.rcsbizcenter.com/form/messagebase.common/LT-messagebase.common-qE1mwe_1.png",
+      "typeName": "icon"
+    }
+  ],
+  "productCode": "tmplt",
+  "spec": "openrichcard",
+  "guideInfo": {
+    "maxLineCount": 0,
+    "maxDisplayText": 17,
+    "maxDescriptionSize": 90,
+    "imageWidth": "0",
+    "imageHeight": "0",
+    "detailInfo": null
+  },
+  "policyInfo": {
+    "cardCount": 1,
+    "maxTitleSize": 0,
+    "maxButtonCount": 2,
+    "maxDescriptionSize": 90,
+    "maxMediaSize": 1048576,
+    "buttonsAllowed": false,
+    "adHeaderAllowed": false,
+    "adBodyAllowed": true
+  },
+  "params": [
+    {
+      "param": "description",
+      "isMandatory": false,
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "imageWidth": 0,
+      "imageHeight": 0,
+      "couplingId": null,
+      "inputText": null
+    }
+  ],
+  "formattedString": {
+    "RCSMessage": {
+      "trafficType": "advertisement",
+      "openrichcardMessage": {
+        "card": "open_rich_card",
+        "layout": {
+          "widget": "LinearLayout",
+          "width": "284dp",
+          "height": "content",
+          "orientation": "vertical",
+          "paddingLeft": "16dp",
+          "paddingRight": "16dp",
+          "background": "#ffffff",
+          "children": [
+            {
+              "widget": "ImageView",
+              "width": "content",
+              "height": "content",
+              "paddingTop": "16dp",
+              "marginBottom": "8dp",
+              "mediaUrl": "maapfile://LT-messagebase.common-qE1mwe"
+            },
+            {
+              "widget": "LinearLayout",
+              "width": "match",
+              "height": "content",
+              "paddingBottom": "8dp",
+              "orientation": "vertical",
+              "children": [
+                {
+                  "widgetPolicy": {
+                    "allowedAttributes": [
+                      "text"
+                    ]
+                  },
+                  "widget": "TextView",
+                  "width": "content",
+                  "height": "content",
+                  "paddingBottom": "8dp",
+                  "textAlignment": "textStart",
+                  "textColor": "#404040",
+                  "textSize": "17dp",
+                  "text": "{{description}}"
+                }
+              ]
+            }
+          ]
+        },
+        "suggestions": [
+          {}
+        ],
+        "zoomAllowed": true
+      }
+    }
+  }
+}
