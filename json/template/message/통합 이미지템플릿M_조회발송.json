@@ -1,0 +1,132 @@
+{
+  "groupId": null,
+  "messagebaseId": "IBR.Jjhx1pu92m-pb913XQyJij1FEfHz5057X8NI",
+  "tmpltName": "통합 이미지 템플릿 M",
+  "messagebaseformId": "RPISMMX001",
+  "brandId": "BR.",
+  "status": "ready",
+  "approvalResult": "승인",
+  "approvalReason": "승인 어드민 코멘트",
+  "registerDate": "2024-04-16T19:59:32.000+09",
+  "approvalDate": "2024-04-17T09:11:57.000+09",
+  "updateDate": "2024-04-17T09:11:57.000+09",
+  "registerId": "sktelecom",
+  "updateId": null,
+  "productCode": "itmpl",
+  "spec": "richcardPlus",
+  "cardType": "carousel medium",
+  "agencyId": "sktelecom",
+  "inputText": null,
+  "attribute": [
+    "정보통신/SW",
+    null,
+    null
+  ],
+  "guideInfo": {
+    "maxLineCount": 3,
+    "maxDisplayText": 7,
+    "maxDescriptionSize": 500,
+    "imageWidth": "900",
+    "imageHeight": "504",
+    "detailInfo": null
+  },
+  "policyInfo": {
+    "cardCount": 1,
+    "maxTitleSize": 30,
+    "maxButtonCount": 2,
+    "maxDescriptionSize": 500,
+    "maxMediaSize": 1048576,
+    "buttonsAllowed": false,
+    "adHeaderAllowed": true,
+    "adBodyAllowed": true
+  },
+  "params": [
+    {
+      "param": "description",
+      "isMandatory": true,
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": null,
+      "strRegx": "^.+(님, 안녕하세요\\. )$",
+      "verification": [
+        "",
+        "님, 안녕하세요. "
+      ],
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "inputText": "{{고객명}}님, 안녕하세요. "
+    },
+    {
+      "param": "title",
+      "isMandatory": true,
+      "type": "string",
+      "contentType": "title",
+      "strSize": -1,
+      "fileSize": null,
+      "strRegx": "^(이미지템플릿 X Biz RCS)$",
+      "verification": [
+        "이미지템플릿 X Biz RCS"
+      ],
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "inputText": "이미지템플릿 X Biz RCS"
+    }
+  ],
+    "formattedString": {
+            "RCSMessage": {
+                "trafficType": "advertisement",
+                "richcardMessage": {
+                    "message": {
+                        "generalPurposeCard": {
+                            "layout": {
+                                "cardOrientation": "VERTICAL"
+                            },
+                            "content": {
+                                "media": {
+                                    "mediaUrl": "maapfile://LT-BR.Jjhx1pu92m-K1FN",
+                                    "height": "MEDIUM_HEIGHT"
+                                },
+                                "title": "{{title}}",
+                                "description": "{{description}}",
+                                "suggestions": [
+                  {
+                    "action": {
+                      "urlAction": {
+                        "openUrl": {
+                          "url": "https://bizrcs.co.kr/login"
+                        }
+                      },
+                      "displayText": "웹 연결하기",
+                      "postback": {
+                        "data": "set_by_chatbot_open_url"
+                      }
+                    }
+                  },
+                  {
+                    "action": {
+                      "mapAction": {
+                        "showLocation": {
+                          "location": {
+                            "query": "SK T 타워"
+                          },
+                          "fallbackUrl": "https://bizrcs.co.kr/login"
+                        }
+                      },
+                      "displayText": "지도 보여주기",
+                      "postback": {
+                        "data": "set_by_chatbot_search_locations"
+                      }
+                    }
+                  }
+                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+}

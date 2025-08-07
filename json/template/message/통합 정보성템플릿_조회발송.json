@@ -1,0 +1,112 @@
+{
+  "messagebaseId": "UBR.8aLEMPOSfu-8LweqBqhcRUkuyyopgbARrdNP",
+  "messagebaseformId": "RPTDXXX001",
+  "isPublic": false,
+  "chatbots": [
+    "18001207",
+    "18001000",
+    "18001111"
+  ],
+  "agencyId": null,
+  "productCode": "tmplt",
+  "spec": "richcardPlus",
+  "cardType": "description",
+  "status": "ready",
+  "desc": "카드사용등록 챗봇 상담 안내",
+  "bizCondition": "카드",
+  "bizCategory": "타이틀 자유형",
+  "bizService": "타이틀 자유형",
+  "params": [
+    {
+      "param": "description",
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": null,
+      "inputText": "[하나카드] 카드사용등록 챗봇 상담 안내\n\n{{변수1}}님, 카드를 새로받으셨나요?간편하게 카드 사용해보세요!",
+      "verification": [
+        "[OO카드] 카드사용등록 챗봇 상담 안내\n\n",
+        "님, 카드를 새로 받으셨나요?\n간편하게 등록하고 바로 카드를 사용해 보세요!"
+      ],
+      "isMandatory": true,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "변수1",
+      "type": "string",
+      "contentType": "title",
+      "strSize": 20,
+      "fileSize": null,
+      "verification": [
+        
+      ],
+      "isMandatory": true,
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "relationId": null
+    },
+    {
+      "param": "id",
+      "isMandatory": true,
+      "type": "string",
+      "contentType": "etc",
+      "strSize": -1,
+      "fileSize": null,
+      "strRegx": null,
+      "verification": [
+        
+      ],
+      "imageWidth": null,
+      "imageHeight": null,
+      "couplingId": null,
+      "inputText": null
+    }
+  ],
+  "policyInfo": {
+    "cardCount": 1,
+    "maxTitleSize": 28,
+    "maxDescriptionSize": 90,
+    "maxMediaSize": 0,
+    "maxButtonCount": 2,
+    "buttonsAllowed": false,
+    "adHeaderAllowed": false,
+    "adBodyAllowed": true
+  },
+  "formattedString": {
+    "RCSMessage": {
+      "trafficType": "advertisement",
+      "richcardMessage": {
+        "message": {
+          "generalPurposeCard": {
+            "layout": {
+              "cardOrientation": "VERTICAL"
+            },
+            "content": {
+              "title": "고정문구8자\n{{변수1}}",
+              "description": "{{description}}",
+              "suggestions": [
+                {
+                  "action": {
+                    "clipboardAction": {
+                      "copyToClipboard": {
+                        "text": "{{id}}"
+                      }
+                    },
+                    "displayText": "회원 ID 보기",
+                    "postback": {
+                      "data": "set_by_chatbot_copy_to_clipboard"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

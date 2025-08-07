@@ -2,6 +2,9 @@ html,
 body {
   margin: 0;
   height: 100%;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
 }
 
 .parent_container {
@@ -11,8 +14,10 @@ body {
 
 .version_container {
   position: absolute;
-  top: 0;
-  right: 10px;
+  top: 10px;
+  right: 20px;
+  color: #6c757d;
+  font-size: 12px;
 }
 
 .main_row {
@@ -27,23 +32,29 @@ body {
 .main_input {
   display: block;
   text-align: center;
-  line-height: 10px;
+  line-height: 42px;
   font-weight: bold;
-  font-size: 14px;
-  border-radius: 5px;
+  font-size: 16px;
+  border-radius: 8px;
   border: none;
-  background-color: #3b7cf3;
-  width: 300px;
-  height: 42px;
+  background-color: #007bff;
+  width: 320px;
+  height: 50px;
   color: white;
   cursor: pointer;
   margin: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.main_input:hover {
+    background-color: #0056b3;
 }
 
 .row {
   display: flex;
   flex-direction: row;
-  background-color: rgb(240, 240, 240);
+  height: 100vh;
+  background-color: #f8f9fa;
 }
 .row#start {
   justify-content: start;
@@ -53,94 +64,145 @@ body {
 }
 .area {
   height: 100vh;
+  box-sizing: border-box;
 }
 .area#web {
-  width: 236px;
-  background-color: rgb(240, 240, 240);
+  width: 300px;
+  flex-shrink: 0;
+  background-color: #ffffff;
   overflow: auto;
+  padding: 20px;
+  border-right: 1px solid #dee2e6;
+  box-sizing: border-box;
 }
 .area#web_app {
-  width: 972px;
   display: flex;
+  margin-left: 5px;
+  width: 972px;
 }
 .center_div {
   display: flex;
   justify-content: center;
 }
 
+.color-input-container {
+  display: flex;
+  width: 100%;
+  gap: 4px;
+}
+
 .inline_block_div {
-  display: inline-block;
-  margin: 0 16px;
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+}
+
+.inline_block_div input[type="checkbox"] {
+    margin-right: 8px;
 }
 
 .file_div {
   margin: 5px auto;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .color_select {
-  height: 24px;
+  height: 38px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
 }
 
 .color_select#enter-color {
-  width: 140px;
-  margin-right: 4px;
+  flex-grow: 1;
+  width: auto;
+  margin-right: 0;
+  padding: 0 8px;
 }
 .color_select#enter-brand-color {
-  width: 140px;
-  margin-right: 4px;
+  flex-grow: 1;
+  width: auto;
+  margin-right: 0;
+  padding: 0 8px;
 }
 
 #button_container {
-  margin: 16px 10px;
+  margin: 0px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
 }
 
 .json_button {
   display: inline-block;
+  width: 100%;
   text-align: center;
   line-height: 10px;
   font-size: 14px;
   border-radius: 5px;
-  border: none;
-  background-color: #3b7cf3;
-  height: 30px;
-  margin: 2px;
-  color: white;
+  border: 1px solid #ced4da;
+  background-color: white;
+  height: 36px;
+  padding: 0 12px;
+  color: black;
   cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.json_button:hover {
+    background-color: #e9ecef;
 }
 
 .custom-file-upload {
-  padding: 6px 10px;
-  background-color:#3b7cf3;
+  flex-grow: 1;
+  text-align: center;
+  padding: 10px 12px;
+  background-color:#007bff;
   border-radius: 4px;
   color: white;
   cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.custom-file-upload:hover {
+    background-color: #0056b3;
 }
 
 .custom-remove {
-  margin-left: 5px;
-  padding: 6px 10px;
-  background-color:#3b7cf3;
+  margin-left: 8px;
+  padding: 8px 12px;
+  background-color:#dc3545;
   border-radius: 4px;
   color: white;
   cursor: pointer;
   display: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.custom-remove:hover {
+    background-color: #c82333;
 }
 
 .control_input {
   display: block;
   text-align: center;
   line-height: 10px;
-  font-size: 14px;
+  font-weight: bold;
+  font-size: 16px;
   border-radius: 5px;
   border: none;
-  background-color: #3b7cf3;
-  width: 95%;
-  margin: auto;
-  height: 42px;
+  background-color: #28a745;
+  width: 100%;
+  margin: 20px auto;
+  height: 48px;
   color: white;
   cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.control_input:hover {
+    background-color: #218838;
 }
 
 #controls1 #input_json_logo {
@@ -153,41 +215,134 @@ body {
   height: 10vh;
 }
 .input_json_class {
-  width: 190px;
-  height: 20vh;
+  width: 100%;
+  height: 15vh;
   padding: 10px;
-  resize: none;
-  margin: 8px auto;
-  display: flex;
+  resize: vertical;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 .input_small_class {
-  width: 190px;
+  width: 100%;
   height: 50px;
   padding: 10px;
-  resize: none;
-  margin: 8px auto;
-  display: flex;
+  resize: vertical;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
-#result_area {
+.input_small_class#autotext_list {
+  height: 80px;
+}
+
+.popup-overlay {
   display: none;
-  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
   align-items: center;
+  z-index: 1000;
 }
-#result_area textarea {
-  width: 190px;
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  width: 80%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-content h4 {
+  margin-top: 0;
+}
+
+.popup-content textarea {
+  width: 100%;
   height: 20vh;
   padding: 10px;
-  margin: 0 auto 10px auto;
+  margin-bottom: 10px;
   resize: none;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.popup-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.popup-button.copy {
+  background-color: #007bff;
+  color: white;
+}
+
+.popup-button.copy:hover {
+  background-color: #0056b3;
+}
+
+.popup-button.close {
+  background-color: #6c757d;
+  color: white;
+}
+
+.popup-button.close:hover {
+  background-color: #5a6268;
 }
 
 #flutter_app {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 .app {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #343a40;
+}
+
+label {
+    font-size: 14px;
+    color: #495057;
+}
+
+input[type="text"] {
+    padding: 0 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+textarea::placeholder, input::placeholder {
+    color: #adb5bd;
 }

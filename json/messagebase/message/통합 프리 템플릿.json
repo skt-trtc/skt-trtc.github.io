@@ -1,0 +1,58 @@
+{
+    "messagebaseId": "RPTFXXX001",
+    "chatbots": null,
+    "isPublic": true,
+    "agencyId": null,
+    "productCode": "tmplt",
+    "spec": "richcardPlus",
+    "cardType": "free",
+    "status": "ready",
+    "desc": "통합 프리 템플릿",
+    "bizCondition": "all",
+    "bizCategory": null,
+    "bizService": null,
+    "policyInfo": {
+        "cardCount": 1,
+        "maxTitleSize": 0,
+        "maxDescriptionSize": 90,
+        "maxMediaSize": 0,
+        "maxButtonCount": 0,
+        "buttonsAllowed": false,
+        "adHeaderAllowed": false,
+        "adBodyAllowed": false
+    },
+    "params": [
+        {
+            "param": "description",
+            "type": "string",
+            "contentType": "description",
+            "strSize": 90,
+            "fileSize": null,
+            "verification": [
+            ],
+            "isMandatory": true,
+            "couplingId": "",
+            "relationId": null,
+            "imageWidth": 0,
+            "imageHeight": 0
+        }
+    ],
+    "formattedString": {
+        "RCSMessage": {
+            "trafficType": "advertisement",
+            "richcardMessage": {
+                "message": {
+                    "generalPurposeCard": {
+                        "layout": {
+                            "cardOrientation": "VERTICAL"
+                        },
+                        "content": {
+                            "title": "알림",
+                            "description": "{{description}}"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

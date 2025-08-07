@@ -1,0 +1,72 @@
+{
+    "messagebaseId": "RPSSAXX001",
+    "chatbots": null,
+    "isPublic": true,
+    "agencyId": null,
+    "productCode": "sms",
+    "spec": "richcardPlus",
+    "cardType": "standalone",
+    "status": "ready",
+    "desc": "통합 SMS 카드",
+    "bizCondition": "all",
+    "bizCategory": null,
+    "bizService": null,
+    "policyInfo": {
+        "cardCount": 1,
+        "maxTitleSize": 10,
+        "maxDescriptionSize": 100,
+        "maxMediaSize": 0,
+        "maxButtonCount": 1,
+        "buttonsAllowed": true,
+        "adHeaderAllowed": false,
+        "adBodyAllowed": true
+    },
+    "params": [
+        {
+            "param": "description",
+            "type": "string",
+            "contentType": "description",
+            "strSize": 100,
+            "fileSize": null,
+            "verification": [
+            ],
+            "isMandatory": true,
+            "couplingId": "",
+            "relationId": null,
+            "imageWidth": 0,
+            "imageHeight": 0
+        },
+        {
+            "param": "title",
+            "type": "string",
+            "contentType": "title",
+            "strSize": 10,
+            "fileSize": null,
+            "verification": [
+            ],
+            "isMandatory": false,
+            "couplingId": "",
+            "relationId": null,
+            "imageWidth": 0,
+            "imageHeight": 0
+        }
+    ],
+    "formattedString": {
+        "RCSMessage": {
+            "trafficType": "advertisement",
+            "richcardMessage": {
+                "message": {
+                    "generalPurposeCard": {
+                        "layout": {
+                            "cardOrientation": "VERTICAL"
+                        },
+                        "content": {
+                            "title": "{{title}}",
+                            "description": "{{description}}"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

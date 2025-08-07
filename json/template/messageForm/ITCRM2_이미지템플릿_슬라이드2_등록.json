@@ -1,0 +1,153 @@
+{
+  "messagebaseformId": "ITCRM2",
+  "formName": "슬라이드형",
+  "cardType": "carousel medium",
+  "bizCondition": [],
+  "bizCategory": null,
+  "bizService": null,
+  "registerDate": "2023-11-27T10:30:30.000+09",
+  "updateDate": "2023-11-29T13:07:04.000+09",
+  "mediaUrl": [],
+  "productCode": "itmpl",
+  "spec": "richcard",
+  "guideInfo": {
+    "maxLineCount": 4,
+    "maxDisplayText": 13,
+    "maxDescriptionSize": 60,
+    "imageWidth": "696",
+    "imageHeight": "1296",
+    "detailInfo": null
+  },
+  "policyInfo": {
+    "cardCount": 6,
+    "maxTitleSize": 30,
+    "maxButtonCount": 2,
+    "maxDescriptionSize": 500,
+    "maxMediaSize": 1048576,
+    "buttonsAllowed": false,
+    "adHeaderAllowed": true,
+    "adBodyAllowed": true
+  },
+  "params": [
+    {
+      "param": "description1",
+      "isMandatory": true,
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "imageWidth": 0,
+      "imageHeight": 0,
+      "couplingId": "",
+      "inputText": null
+    },
+    {
+      "param": "description2",
+      "isMandatory": true,
+      "type": "string",
+      "contentType": "description",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "imageWidth": 0,
+      "imageHeight": 0,
+      "couplingId": "",
+      "inputText": null
+    },
+    
+    {
+      "param": "media1",
+      "isMandatory": true,
+      "type": "file",
+      "contentType": "maapfile",
+      "strSize": -1,
+      "fileSize": 1048576,
+      "strRegx": "",
+      "verification": [],
+      "imageWidth": 0,
+      "imageHeight": 0,
+      "couplingId": "",
+      "inputText": null
+    },
+    {
+      "param": "media2",
+      "isMandatory": true,
+      "type": "file",
+      "contentType": "maapfile",
+      "strSize": -1,
+      "fileSize": 1048576,
+      "strRegx": "",
+      "verification": [],
+      "imageWidth": 0,
+      "imageHeight": 0,
+      "couplingId": "",
+      "inputText": null
+    },
+    
+    {
+      "param": "title1",
+      "isMandatory": false,
+      "type": "string",
+      "contentType": "title",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "imageWidth": 0,
+      "imageHeight": 0,
+      "couplingId": "",
+      "inputText": null
+    },
+    {
+      "param": "title2",
+      "isMandatory": false,
+      "type": "string",
+      "contentType": "title",
+      "strSize": -1,
+      "fileSize": 0,
+      "strRegx": "",
+      "verification": [],
+      "imageWidth": 0,
+      "imageHeight": 0,
+      "couplingId": "",
+      "inputText": null
+    }
+    
+  ],
+  "formattedString": {
+    "RCSMessage": {
+      "trafficType": "advertisement",
+      "richcardMessage": {
+        "message": {
+          "generalPurposeCardCarousel": {
+            "layout": {
+              "cardWidth": "MEDIUM_WIDTH"
+            },
+            "content": [
+              {
+                "description": "{{description1}}",
+                "media": {
+                  "mediaUrl": "{{media1}}",
+                  "height": "MEDIUM_HEIGHT"
+                },
+                "title": "{{title1}}"
+              },
+              {
+                "description": "{{description2}}",
+                "media": {
+                  "mediaUrl": "{{media2}}",
+                  "height": "MEDIUM_HEIGHT"
+                },
+                "title": "{{title2}}"
+              }
+            ],
+            "zoomAllowed": false
+          }
+        }
+      }
+    }
+  }
+}

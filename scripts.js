@@ -43,7 +43,12 @@ async function sleep(ms) {
   await new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function readFileToJson(fileName) {
+function readFileToJson(fileName, folder) {
+  if (fileName === "") {
+    document.getElementById('input_json').value = "";
+    return;
+  }
+
   const readFile = (url) => {
     return new Promise((resolve, reject) => {
       fetch(url)
@@ -53,8 +58,30 @@ function readFileToJson(fileName) {
     });
   };
 
-  readFile(`messagebase_json/${fileName}`).then((data) => {
+  readFile(`${folder}/${fileName}`).then((data) => {
     document.getElementById('input_json').value = data;
+  }).catch((error) => {
+    console.error(error);
+  });
+}
+
+function readFileToFormJson(fileName, folder) {
+  if (fileName === "") {
+    document.getElementById('input_form_json').value = "";
+    return;
+  }
+
+  const readFile = (url) => {
+    return new Promise((resolve, reject) => {
+      fetch(url)
+      .then((response) => response.text())
+      .then((data) => resolve(data))
+      .catch((error) => reject(error));
+    });
+  };
+
+  readFile(`${folder}/${fileName}`).then((data) => {
+    document.getElementById('input_form_json').value = data;
   }).catch((error) => {
     console.error(error);
   });
@@ -93,6 +120,7 @@ function passToApp(isTemplate) {
   let color = document.getElementById('enter-color').value;
   let previewOnly = document.getElementById('preview_only').checked;
   let inputEnable = document.getElementById('input_enable').checked;
+  let renderIos = document.getElementById('render_ios').checked;
 
   let brandColorElement = document.getElementById('enter-brand-color');
   let brandColor = brandColorElement != null ? brandColorElement.value : "";
@@ -109,6 +137,7 @@ function passToApp(isTemplate) {
         "imageEditor": true,
         "guideText": "메시지 작성에 필요한 변수를 클릭하면 자동으로 복사됩니다.",
         "autoTextList": autoTextList,
+        "renderIos": renderIos,
       },
       "layoutTheme": {
         "themeColor": color,
@@ -135,8 +164,18 @@ function passToApp(isTemplate) {
 
 // TODO: MUST implement function (listen)
 window.onExport = (val) => {
-  document.getElementById("result_area").style.display = "flex";
+  document.getElementById("result_popup").style.display = "flex";
   document.getElementById("result").value = val;
+}
+
+function copyToClipboard() {
+  const resultTextarea = document.getElementById('result');
+  resultTextarea.select();
+  document.execCommand('copy');
+}
+
+function closePopup() {
+  document.getElementById('result_popup').style.display = 'none';
 }
 
 // TODO: MUST implement function (listen)

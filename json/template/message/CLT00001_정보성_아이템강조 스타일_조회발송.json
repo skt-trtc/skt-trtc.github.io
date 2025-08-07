@@ -1,0 +1,475 @@
+{
+            "messagebaseId": "UBR.h96gz62o7f-d9nG7J8P0qKF88O32u9k39xcF",
+"messagebaseformId" : "CLT00001",
+            "isPublic": false,
+            "chatbots": [
+              
+            ],
+            "agencyId": null,
+            "productCode": "tmplt",
+            "spec": "openrichcard",
+            "cardType": "descriptionNew",
+            "status": "ready",
+            "desc": "BCI0111001",
+            "bizCondition": "카드",
+            "bizCategory": null,
+            "bizService": null,
+            "params": [
+                {
+                    "param": "cellLeft1",
+                    "type": "string",
+                    "contentType": "description",
+                    "strSize": -1,
+                    "fileSize": null,
+                    "verification": [
+                        "",
+                        " "
+                    ],
+                    "isMandatory": true,
+                    "imageWidth": null,
+                    "imageHeight": null,
+                    "couplingId": null,
+"inputText" : "{{고객명}}",
+                    "relationId": null
+                },
+                {
+                    "param": "cellLeft2",
+                    "type": "string",
+                    "contentType": "description",
+                    "strSize": -1,
+                    "fileSize": null,
+                    "verification": [],
+                    "isMandatory": true,
+                    "imageWidth": null,
+                    "imageHeight": null,
+                    "couplingId": null,
+"inputText" : "{{할부표기초과승인여부유증표기}}",
+
+                    "relationId": null
+                },
+                {
+                    "param": "cellLeft3",
+                    "type": "string",
+                    "contentType": "description",
+                    "strSize": -1,
+                    "fileSize": null,
+                    "verification": [],
+                    "isMandatory": true,
+                    "imageWidth": null,
+                    "imageHeight": null,
+                    "couplingId": null,
+"inputText" : "{{가맹점명}}",
+
+                    "relationId": null
+                },
+                {
+                    "param": "cellRight1",
+                    "type": "string",
+                    "contentType": "description",
+                    "strSize": -1,
+                    "fileSize": null,
+                    "verification": [],
+                    "isMandatory": true,
+                    "imageWidth": null,
+                    "imageHeight": null,
+"inputText" : "{{체크법인듀얼표기특별승인여부면세유}}",
+                    "couplingId": null,
+                    "relationId": null
+                },
+                {
+                    "param": "cellRight2",
+                    "type": "string",
+                    "contentType": "description",
+                    "strSize": -1,
+                    "fileSize": null,
+                    "verification": [],
+                    "isMandatory": true,
+                    "imageWidth": null,
+                    "imageHeight": null,
+                    "couplingId": null,
+"inputText" : "{{시간}}",
+                    "relationId": null
+                },
+                {
+                    "param": "itemDesc",
+                    "type": "string",
+                    "contentType": "description",
+                    "strSize": 18,
+                    "fileSize": null,
+                    "verification": [
+                        "",
+                        "(",
+                        ")"
+                    ],
+                    "isMandatory": true,
+                    "imageWidth": null,
+                    "imageHeight": null,
+                    "couplingId": null,
+"inputText" : "{{회원사명}}{{카드번호}}",
+                    "relationId": null
+                },
+                {
+                    "param": "itemTitle",
+                    "type": "string",
+                    "contentType": "description",
+                    "strSize": 20,
+                    "fileSize": null,
+                    "verification": [
+                        "",
+                        " ",
+                        ""
+                    ],
+                    "isMandatory": true,
+                    "imageWidth": null,
+                    "imageHeight": null,
+                    "couplingId": null,
+"inputText" : "{{승인금액원포함}}{{승인}}",
+                    "relationId": null
+                }
+            ],
+            "policyInfo": {
+                "cardCount": 1,
+                "maxTitleSize": 0,
+                "maxDescriptionSize": 90,
+                "maxMediaSize": 0,
+                "maxButtonCount": 2,
+                "buttonsAllowed": false,
+                "adHeaderAllowed": false,
+                "adBodyAllowed": true
+            },
+            "formattedString": {
+                "RCSMessage": {
+                    "trafficType": "advertisement",
+                    "openrichcardMessage": {
+                        "card": "open_rich_card",
+                        "version": "1.0.0",
+                        "zoomAllowed": true,
+                        "scaleAllowed": true,
+                        "layout": {
+                            "widget": "LinearLayout",
+                            "width": "match",
+                            "height": "content",
+                            "orientation": "vertical",
+                            "background": "#F2F2F2",
+                            "children": [
+                                {
+                                    "widget": "LinearLayout",
+                                    "width": "match",
+                                    "height": "4dp",
+                                    "orientation": "vertical"
+                                },
+                                {
+                                    "widget": "LinearLayout",
+                                    "width": "match",
+                                    "height": "content",
+                                    "orientation": "vertical",
+                                    "paddingLeft": "10dp",
+                                    "paddingRight": "10dp",
+                                    "children": [
+                                        {
+                                            "widget": "LinearLayout",
+                                            "width": "match",
+                                            "height": "content",
+                                            "marginTop": "6dp",
+                                            "marginBottom": "2dp",
+                                            "padding": "4dp",
+                                            "orientation": "horizontal",
+                                            "gravity": "bottom",
+                                            "visibility": "visible",
+                                            "children": [
+                                                {
+                                                    "widget": "LinearLayout",
+                                                    "width": "match",
+                                                    "height": "content",
+                                                    "orientation": "vertical",
+                                                    "weight": "1",
+                                                    "children": [
+                                                        {
+                                                            "widget": "TextView",
+                                                            "width": "match",
+                                                            "height": "content",
+                                                            "textStyle": "normal",
+                                                            "text": "{{itemDesc}}",
+                                                            "textColor": "#949494",
+                                                            "visibility": "visible",
+                                                            "textSize": "14dp"
+                                                        },
+                                                        {
+                                                            "widget": "TextView",
+                                                            "width": "match",
+                                                            "height": "content",
+                                                            "marginTop": "2dp",
+                                                            "textStyle": "bold",
+                                                            "text": "{{itemTitle}}",
+                                                            "textColor": "#1e1e1e",
+                                                            "textSize": "24dp"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "widget": "LinearLayout",
+                                                    "width": "56dp",
+                                                    "height": "56dp",
+                                                    "orientation": "horizontal",
+                                                    "corner_radius": "4dp",
+                                                    "marginLeft": "8dp",
+                                                    "visibility": "visible",
+                                                    "children": [
+                                                        {
+                                                            "widget": "ImageView",
+                                                            "width": "match",
+                                                            "height": "match",
+                                                            "scaleType": "fitXY",
+                                                            "mediaUrl": "maapfile://BLG-BR.h96gz62o7f-B94C"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "widget": "LinearLayout",
+                                            "width": "match",
+                                            "height": "content",
+                                            "marginTop": "6dp",
+                                            "padding": "4dp",
+                                            "background": "#f2f2f2",
+                                            "corner_radius": "4dp",
+                                            "orientation": "vertical",
+                                            "visibility": "visible",
+                                            "children": [
+                                                {
+                                                    "widget": "LinearLayout",
+                                                    "width": "match",
+                                                    "height": "content",
+                                                    "orientation": "vertical",
+                                                    "visibility": "gone",
+                                                    "children": [
+                                                        {
+                                                            "widget": "TextView",
+                                                            "width": "match",
+                                                            "height": "content",
+                                                            "textStyle": "bold",
+                                                            "text": "{{cellTitle}}",
+                                                            "textColor": "#1e1e1e",
+                                                            "textSize": "17dp",
+                                                            "marginBottom": "4dp"
+                                                        },
+                                                        {
+                                                            "width": "match",
+                                                            "height": "1dp",
+                                                            "widget": "View",
+                                                            "background": "#1e1e1e",
+                                                            "marginBottom": "1dp"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "widget": "LinearLayout",
+                                                    "width": "match",
+                                                    "height": "content",
+                                                    "orientation": "vertical",
+                                                    "visibility": "visible",
+                                                    "children": [
+                                                        {
+                                                            "widget": "LinearLayout",
+                                                            "width": "match",
+                                                            "height": "content",
+                                                            "marginTop": "4dp",
+                                                            "orientation": "horizontal",
+                                                            "children": [
+                                                                {
+                                                                    "widget": "TextView",
+                                                                    "width": "0dp",
+                                                                    "height": "match",
+                                                                    "textStyle": "normal",
+                                                                    "text": "{{cellLeft1}}",
+                                                                    "textColor": "#1e1e1e",
+                                                                    "textSize": "18dp",
+                                                                    "weight": "1",
+                                                                    "gravity": "top",
+                                                                    "textAlignment": "textStart"
+                                                                },
+                                                                {
+                                                                    "widget": "TextView",
+                                                                    "width": "0dp",
+                                                                    "height": "match",
+                                                                    "textStyle": "normal",
+                                                                    "marginLeft": "12dp",
+                                                                    "visibility": "visible",
+                                                                    "text": "{{cellRight1}}",
+                                                                    "textColor": "#1e1e1e",
+                                                                    "textSize": "18dp",
+                                                                    "weight": "2",
+                                                                    "gravity": "top",
+                                                                    "textAlignment": "textEnd"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "widget": "LinearLayout",
+                                                    "width": "match",
+                                                    "height": "content",
+                                                    "orientation": "vertical",
+                                                    "visibility": "visible",
+                                                    "children": [
+                                                        {
+                                                            "widget": "LinearLayout",
+                                                            "width": "match",
+                                                            "height": "content",
+                                                            "marginTop": "1dp",
+                                                            "orientation": "horizontal",
+                                                            "children": [
+                                                                {
+                                                                    "widget": "TextView",
+                                                                    "width": "0dp",
+                                                                    "height": "match",
+                                                                    "textStyle": "normal",
+                                                                    "text": "{{cellLeft2}}",
+                                                                    "textColor": "#1e1e1e",
+                                                                    "textSize": "18dp",
+                                                                    "weight": "1",
+                                                                    "gravity": "top",
+                                                                    "textAlignment": "textStart"
+                                                                },
+                                                                {
+                                                                    "widget": "TextView",
+                                                                    "width": "0dp",
+                                                                    "height": "match",
+                                                                    "textStyle": "normal",
+                                                                    "marginLeft": "12dp",
+                                                                    "visibility": "visible",
+                                                                    "text": "{{cellRight2}}",
+                                                                    "textColor": "#1e1e1e",
+                                                                    "textSize": "18dp",
+                                                                    "weight": "2",
+                                                                    "gravity": "top",
+                                                                    "textAlignment": "textEnd"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "width": "match",
+                                                            "height": "1dp",
+                                                            "widget": "View",
+                                                            "marginTop": "4dp",
+                                                            "background": "#949494",
+                                                            "visibility": "visible"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "widget": "LinearLayout",
+                                                    "width": "match",
+                                                    "height": "content",
+                                                    "orientation": "vertical",
+                                                    "visibility": "visible",
+                                                    "children": [
+                                                        {
+                                                            "widget": "LinearLayout",
+                                                            "width": "match",
+                                                            "height": "content",
+                                                            "orientation": "horizontal",
+                                                            "marginTop": "4dp",
+                                                            "children": [
+                                                                {
+                                                                    "widget": "TextView",
+                                                                    "width": "0dp",
+                                                                    "height": "match",
+                                                                    "textStyle": "normal",
+                                                                    "text": "{{cellLeft3}}",
+                                                                    "textColor": "#1e1e1e",
+                                                                    "textSize": "18dp",
+                                                                    "weight": "1",
+                                                                    "gravity": "top",
+                                                                    "textAlignment": "textStart"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "widget": "LinearLayout",
+                                            "width": "match",
+                                            "height": "content",
+                                            "orientation": "vertical",
+                                            "padding": "4dp",
+                                            "children": [
+                                                {
+                                                    "widget": "LinearLayout",
+                                                    "width": "match",
+                                                    "height": "content",
+                                                    "orientation": "vertical",
+                                                    "children": [
+                                                        {
+                                                            "widget": "Button",
+                                                            "width": "match",
+                                                            "height": "36dp",
+                                                            "marginTop": "8dp",
+                                                            "background": "#E4E4E4",
+                                                            "textColor": "#1e1e1e",
+                                                            "textSize": "15dp",
+                                                            "text": "이용내역 🎁확인하기",
+                                                            "textStyle": "normal",
+                                                            "textAlignment": "center",
+                                                            "click": {
+                                                                "action": {
+                                                                    "urlAction": {
+                                                                        "openUrl": {
+                                                                            "url": "https://paybooc.app.link/H7OeIEPw0Jb"
+                                                                        }
+                                                                    },
+                                                                    "displayText": "이용내역 🎁확인하기",
+                                                                    "postback": {
+                                                                        "data": "set_by_chatbot_open_url"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "corner_radius": "8dp",
+                                                            "visibility": "visible"
+                                                        },
+                                                        {
+                                                            "widget": "Button",
+                                                            "width": "match",
+                                                            "height": "36dp",
+                                                            "marginTop": "8dp",
+                                                            "background": "#E4E4E4",
+                                                            "textColor": "#1e1e1e",
+                                                            "textSize": "15dp",
+                                                            "text": "",
+                                                            "textStyle": "normal",
+                                                            "textAlignment": "center",
+                                                            "click": {
+                                                                "action": {
+                                                                    "urlAction": {
+                                                                        "openUrl": {
+                                                                            "url": ""
+                                                                        }
+                                                                    },
+                                                                    "displayText": "dummy"
+                                                                }
+                                                            },
+                                                            "corner_radius": "8dp",
+                                                            "visibility": "gone"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "widget": "LinearLayout",
+                                    "width": "match",
+                                    "height": "10dp",
+                                    "orientation": "vertical"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
