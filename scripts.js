@@ -120,7 +120,6 @@ function passToApp(isTemplate) {
   let color = document.getElementById('enter-color').value;
   let previewOnly = document.getElementById('preview_only').checked;
   let inputEnable = document.getElementById('input_enable').checked;
-  let renderIos = document.getElementById('render_ios').checked;
 
   let brandColorElement = document.getElementById('enter-brand-color');
   let brandColor = brandColorElement != null ? brandColorElement.value : "";
@@ -137,7 +136,6 @@ function passToApp(isTemplate) {
         "imageEditor": true,
         "guideText": "메시지 작성에 필요한 변수를 클릭하면 자동으로 복사됩니다.",
         "autoTextList": autoTextList,
-        "renderIos": renderIos,
       },
       "layoutTheme": {
         "themeColor": color,

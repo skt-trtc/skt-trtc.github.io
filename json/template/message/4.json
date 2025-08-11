@@ -41,7 +41,7 @@
       "strSize": 20,
       "fileSize": null,
       "verification": [
-        
+
       ],
       "isMandatory": true,
       "imageWidth": null,
@@ -58,7 +58,7 @@
       "fileSize": null,
       "strRegx": null,
       "verification": [
-        
+
       ],
       "imageWidth": null,
       "imageHeight": null,
@@ -91,14 +91,14 @@
               "suggestions": [
                 {
                   "action": {
-                    "clipboardAction": {
-                      "copyToClipboard": {
-                        "text": "{{id}}"
+                    "urlAction": {
+                      "openUrl": {
+                        "url": "https://bizrcs.co.kr/login"
                       }
                     },
-                    "displayText": "회원 ID 보기",
+                    "displayText": "웹 연결하기",
                     "postback": {
-                      "data": "set_by_chatbot_copy_to_clipboard"
+                      "data": "set_by_chatbot_open_url"
                     }
                   }
                 }
