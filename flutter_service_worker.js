@@ -3,12 +3,12 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "2a9e5c29ca376937c2ee653d81e4fdec",
-"version.json": "78349715b76c6e91cea54ea6d4b59959",
-"index.html": "7a1de54a9471c3020319a6805ce9e848",
-"/": "7a1de54a9471c3020319a6805ce9e848",
+const RESOURCES = {"flutter_bootstrap.js": "211a83ca4d8dce15e141ee589b41d230",
+"version.json": "d3072d5a48775d8ca9b33dbb93e37078",
+"index.html": "2c6d495d5d0d6bef82f63a107fc4fb19",
+"/": "2c6d495d5d0d6bef82f63a107fc4fb19",
 "message_base.html": "e16ca5a8d7d3e2d3feea675c3d6799cb",
-"main.dart.js": "b7609326aa6cd12271e43d0be6965be7",
+"main.dart.js": "a840810ad93bf7ee370830ba7c5f58ed",
 "flutter.js": "4b2350e14c6650ba82871f60906437ea",
 "croppie/croppie.min.js": "0380ad0a1bbf1f6c55d5c67a7ced16da",
 "croppie/croppie.min.css": "415ea4fbd13b4a5b82fd147710709ae2",
